@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+(() => {
   // 1. Tab Switcher for Mindmap Previews
   const tabBtns = document.querySelectorAll('.tab-btn');
   const previewCards = document.querySelectorAll('.mindmap-preview-card');
@@ -204,4 +204,4 @@ document.addEventListener('DOMContentLoaded', () => {
       console.error('Error forwarding UTMs:', e);
     }
   });
-});
+})();
