@@ -508,152 +508,154 @@ export const pageHtml = `
 
       <div class="pricing-grid">
         <!-- PLANO BÁSICO -->
-        <div class="pricing-card plan-basic-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+        <div class="pricing-card plan-basic-card" style="display: flex; flex-direction: column; justify-content: space-between; padding: 28px 24px;">
           <div>
             <!-- Capsule Badge -->
-            <div style="text-align: center; margin-bottom: 12px; margin-top: 10px;">
-              <span class="plan-capsule-badge" style="background: rgba(100, 116, 139, 0.05); border: 1px solid rgba(100, 116, 139, 0.15); color: #64748b;">ACESSO SIMPLES</span>
+            <div style="text-align: center; margin-bottom: 8px; margin-top: 4px;">
+              <span class="plan-capsule-badge" style="background: rgba(100, 116, 139, 0.05); border: 1px solid rgba(100, 116, 139, 0.15); color: #64748b; font-size: 0.78rem; padding: 4px 12px;">ACESSO SIMPLES</span>
             </div>
 
-            <h3 class="plan-name" style="text-align: center; margin-bottom: 24px; font-size: 1.6rem; font-weight: 800;">Plano Básico</h3>
+            <h3 class="plan-name" style="text-align: center; margin-bottom: 16px; font-size: 1.45rem; font-weight: 800;">Plano Básico</h3>
 
             <!-- Features List -->
-            <div class="plan-features" style="margin-bottom: 32px;">
-              <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;">
-                <span class="check" style="color: #0284c7; font-weight: bold;">✔</span>
+            <div class="plan-features" style="margin-bottom: 20px; gap: 8px;">
+              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; line-height: 1.35; color: #334155;">
+                <span class="check" style="color: #0284c7; font-weight: bold; font-size: 0.95rem;">✔</span>
                 <span>250 Questões Comentadas PPA</span>
               </div>
-              <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;">
-                <span class="check" style="color: #0284c7; font-weight: bold;">✔</span>
+              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; line-height: 1.35; color: #334155;">
+                <span class="check" style="color: #0284c7; font-weight: bold; font-size: 0.95rem;">✔</span>
                 <span>Garantia de 7 dias</span>
               </div>
-              <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;">
-                <span class="check" style="color: #0284c7; font-weight: bold;">✔</span>
+              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; line-height: 1.35; color: #334155;">
+                <span class="check" style="color: #0284c7; font-weight: bold; font-size: 0.95rem;">✔</span>
                 <span>Acesso imediato</span>
               </div>
-              <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;">
-                <span class="check" style="color: #0284c7; font-weight: bold;">✔</span>
+              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; line-height: 1.35; color: #334155;">
+                <span class="check" style="color: #0284c7; font-weight: bold; font-size: 0.95rem;">✔</span>
                 <span>Acesso vitalício</span>
               </div>
-              <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 0; font-size: 0.95rem; line-height: 1.4; color: #a1a1aa; font-weight: normal;">
-                <span class="check" style="color: #ef4444; font-weight: bold;">✕</span>
-                <span>Sem os quatro bônus complementares</span>
+              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; line-height: 1.35; color: #94a3b8; font-weight: normal;">
+                <span class="check" style="color: #ef4444; font-weight: bold; font-size: 0.95rem;">✕</span>
+                <span>Sem os 4 bônus complementares</span>
               </div>
             </div>
 
             <!-- Price Container -->
-            <div class="plan-price-promo-container" style="text-align: center; margin-bottom: 24px;">
-              <div class="plan-price-old" style="font-size: 0.95rem; color: #64748b; margin-bottom: 2px;">por apenas:</div>
-              <div class="plan-price-box" style="justify-content: center; margin-bottom: 4px; display: flex; align-items: baseline; gap: 4px;">
-                <span class="plan-currency" style="color: #0f172a; font-size: 1.8rem; font-weight: 800;">R$</span>
-                <span class="plan-price" style="color: #0f172a; font-size: 4rem; font-weight: 800; line-height: 1;">14,90</span>
+            <div class="plan-price-promo-container" style="text-align: center; margin-bottom: 16px;">
+              <div class="plan-price-old" style="font-size: 0.88rem; color: #64748b; margin-bottom: 2px;">por apenas:</div>
+              <div class="plan-price-box" style="justify-content: center; margin-bottom: 2px; display: flex; align-items: baseline; gap: 3px;">
+                <span class="plan-currency" style="color: #0f172a; font-size: 1.5rem; font-weight: 800;">R$</span>
+                <span class="plan-price" style="color: #0f172a; font-size: 3.2rem; font-weight: 800; line-height: 1;">14,90</span>
               </div>
-              <div class="plan-period" style="font-size: 0.92rem; color: #475569;">
+              <div class="plan-period" style="font-size: 0.85rem; color: #475569;">
                 pagamento único
               </div>
             </div>
 
             <!-- White CTA Box Button -->
-            <div style="margin-bottom: 24px;">
-              <button type="button" class="btn-basic-cta-box open-upsell-modal">
-                <span>QUERO AS 250 QUESTÕES COMENTADAS →</span>
+            <div style="margin-bottom: 14px;">
+              <button type="button" class="btn-basic-cta-box open-upsell-modal" style="padding: 13px 18px; font-size: 0.95rem;">
+                <span>QUERO O PLANO BÁSICO →</span>
               </button>
             </div>
 
             <!-- UPSELL BOX -->
-            <div class="plan-basic-upsell-box" style="background: #f0f9ff; border: 1px dashed #7dd3fc; border-radius: 12px; padding: 16px; margin-top: 20px; text-align: center;">
-              <p style="font-size: 0.88rem; color: #334155; line-height: 1.45; margin: 0; text-align: center;">
-                Por mais <strong>R$ 13,00</strong>, você leva as <strong>250 Questões Comentadas PPA</strong> e todos os quatro bônus de Meteorologia, Navegação, revisão pré-banca e pegadinhas.
+            <div class="plan-basic-upsell-box" style="background: #f0f9ff; border: 1px dashed #7dd3fc; border-radius: 10px; padding: 12px 14px; margin-top: 12px; text-align: center;">
+              <p style="font-size: 0.84rem; color: #334155; line-height: 1.4; margin: 0; text-align: center;">
+                Por mais <strong>R$ 13,00</strong>, leve o pacote com os <strong>4 bônus exclusivos</strong>.
               </p>
-              <a href="#plano-premium" class="upsell-link" style="color: #0284c7; font-weight: 800; text-decoration: underline; display: inline-block; margin-top: 10px; font-size: 0.88rem; font-family: var(--font-heading);">VER PLANO PREMIUM ↓</a>
+              <a href="#plano-premium" class="upsell-link" style="color: #0284c7; font-weight: 800; text-decoration: underline; display: inline-block; margin-top: 6px; font-size: 0.82rem; font-family: var(--font-heading);">VER PLANO PREMIUM ↓</a>
             </div>
           </div>
         </div>
 
         <!-- PLANO PREMIUM -->
-        <div class="pricing-card featured" id="plano-premium" style="display: flex; flex-direction: column; justify-content: space-between;">
-          <div class="featured-badge">⭐ PLANO PREMIUM</div>
+        <div class="pricing-card featured" id="plano-premium" style="display: flex; flex-direction: column; justify-content: space-between; padding: 28px 24px;">
+          <div class="featured-badge" style="font-size: 0.8rem; padding: 5px 16px;">⭐ PLANO PREMIUM</div>
           
-          <!-- Small Label -->
-          <div style="text-align: center; margin-bottom: 12px; margin-top: 10px;">
-            <span class="plan-capsule-badge">ACESSO COMPLETO</span>
-          </div>
-
-          <!-- Mockup Image -->
-          <div class="plan-mockup-wrapper">
-            <img src="/clone/images/completo_mockup.png" alt="250 Questões Comentadas PPA – Plano Premium" class="plan-mockup-img">
-          </div>
-
-          <!-- Price Container -->
-          <div class="plan-price-promo-container" style="text-align: center; margin-bottom: 16px;">
-            <div class="plan-price-old" style="font-size: 0.95rem; color: #64748b; margin-bottom: 2px;">por apenas:</div>
-            <div class="plan-price-box" style="justify-content: center; margin-bottom: 4px; display: flex; align-items: baseline; gap: 4px;">
-              <span class="plan-currency" style="color: #0284c7; font-size: 1.8rem; font-weight: 800;">R$</span>
-              <span class="plan-price" style="color: #0284c7; font-size: 4rem; font-weight: 800; line-height: 1;">27,90</span>
-            </div>
-            <div class="plan-period" style="font-size: 0.92rem; color: #475569;">
-              pagamento único
-            </div>
-          </div>
-
-          <!-- First CTA Button -->
-          <div style="margin-bottom: 24px;">
-            <a href="https://pay.wiapy.com/6a90885f39d0c7111d7c9630" class="btn-green-cta">
-              <span>GARANTIR MEU ACESSO COMPLETO ↓</span>
-            </a>
-          </div>
-
-          <!-- Title of Plan -->
-          <h4 style="font-family: var(--font-heading); font-size: 1.3rem; font-weight: 800; color: #0f172a; text-align: center; margin-bottom: 20px;">
-            Plano Premium
-          </h4>
-
-          <!-- Benefits List -->
-          <div class="plan-features" style="margin-bottom: 20px;">
-            <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;">
-              <span class="check" style="color: #0284c7; font-weight: bold;">✔</span>
-              <span>250 Questões Comentadas PPA</span>
-            </div>
-            <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;">
-              <span class="check" style="color: #0284c7; font-weight: bold;">✔</span>
-              <span>As cinco matérias: MET, NAV, REG, TV e CTA</span>
-            </div>
-            <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;">
-              <span class="check" style="color: #0284c7; font-weight: bold;">✔</span>
-              <span>Gabarito, explicação, pegadinha, associação e revisão</span>
-            </div>
-            <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;">
-              <span class="check" style="color: #0284c7; font-weight: bold;">✔</span>
-              <span>Arquivos digitais organizados por matéria</span>
-            </div>
-          </div>
-
-          <!-- Bonus Box -->
-          <div class="plan-bonus-box">
-            <h5 class="plan-bonus-box-title" style="color: #135f7e; font-family: var(--font-heading); font-size: 1.05rem; font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 6px; margin-top: 0;">
-              🎁 Quatro bônus inclusos:
-            </h5>
-            <ul class="plan-bonus-list" style="margin: 0; padding: 0; list-style: none;">
-              <li style="font-size: 0.9rem; color: #475569; line-height: 1.4; margin-bottom: 12px;">
-                <strong style="color: #0f172a; font-weight: 800; display: block; font-size: 0.95rem; margin-bottom: 1px;">BÔNUS #1</strong> Meteorologia Visual
-              </li>
-              <li style="font-size: 0.9rem; color: #475569; line-height: 1.4; margin-bottom: 12px;">
-                <strong style="color: #0f172a; font-weight: 800; display: block; font-size: 0.95rem; margin-bottom: 1px;">BÔNUS #2</strong> Navegação Visual
-              </li>
-              <li style="font-size: 0.9rem; color: #475569; line-height: 1.4; margin-bottom: 12px;">
-                <strong style="color: #0f172a; font-weight: 800; display: block; font-size: 0.95rem; margin-bottom: 1px;">BÔNUS #3</strong> Checklist Pré-Banca 72H
-              </li>
-              <li style="font-size: 0.9rem; color: #475569; line-height: 1.4; margin-bottom: 0;">
-                <strong style="color: #0f172a; font-weight: 800; display: block; font-size: 0.95rem; margin-bottom: 1px;">BÔNUS #4</strong> Pegadinhas e Erros de Recuperação
-              </li>
-            </ul>
-          </div>
-
-          <!-- Second CTA Button -->
           <div>
-            <a href="https://pay.wiapy.com/6a90885f39d0c7111d7c9630" class="btn-green-cta">
-              <span>GARANTIR MEU ACESSO COMPLETO ↓</span>
-            </a>
+            <!-- Small Label -->
+            <div style="text-align: center; margin-bottom: 8px; margin-top: 6px;">
+              <span class="plan-capsule-badge" style="font-size: 0.78rem; padding: 4px 12px;">ACESSO COMPLETO</span>
+            </div>
+
+            <!-- Mockup Image -->
+            <div class="plan-mockup-wrapper" style="margin: 8px auto 12px auto;">
+              <img src="/clone/images/completo_mockup.png" alt="250 Questões Comentadas PPA – Plano Premium" class="plan-mockup-img" style="max-height: 180px;">
+            </div>
+
+            <!-- Price Container -->
+            <div class="plan-price-promo-container" style="text-align: center; margin-bottom: 14px;">
+              <div class="plan-price-old" style="font-size: 0.88rem; color: #64748b; margin-bottom: 2px;">por apenas:</div>
+              <div class="plan-price-box" style="justify-content: center; margin-bottom: 2px; display: flex; align-items: baseline; gap: 3px;">
+                <span class="plan-currency" style="color: #0284c7; font-size: 1.5rem; font-weight: 800;">R$</span>
+                <span class="plan-price" style="color: #0284c7; font-size: 3.2rem; font-weight: 800; line-height: 1;">27,90</span>
+              </div>
+              <div class="plan-period" style="font-size: 0.85rem; color: #475569;">
+                pagamento único
+              </div>
+            </div>
+
+            <!-- First CTA Button -->
+            <div style="margin-bottom: 16px;">
+              <a href="https://pay.wiapy.com/6a90885f39d0c7111d7c9630" class="btn-green-cta" style="padding: 13px 18px; font-size: 0.95rem;">
+                <span>GARANTIR ACESSO COMPLETO ↓</span>
+              </a>
+            </div>
+
+            <!-- Title of Plan -->
+            <h4 style="font-family: var(--font-heading); font-size: 1.18rem; font-weight: 800; color: #0f172a; text-align: center; margin-bottom: 12px;">
+              Plano Premium
+            </h4>
+
+            <!-- Benefits List -->
+            <div class="plan-features" style="margin-bottom: 14px; gap: 8px;">
+              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; line-height: 1.35; color: #334155;">
+                <span class="check" style="color: #0284c7; font-weight: bold; font-size: 0.95rem;">✔</span>
+                <span>250 Questões Comentadas PPA</span>
+              </div>
+              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; line-height: 1.35; color: #334155;">
+                <span class="check" style="color: #0284c7; font-weight: bold; font-size: 0.95rem;">✔</span>
+                <span>Todas as 5 matérias completas</span>
+              </div>
+              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; line-height: 1.35; color: #334155;">
+                <span class="check" style="color: #0284c7; font-weight: bold; font-size: 0.95rem;">✔</span>
+                <span>Gabarito, pegadinhas e revisão</span>
+              </div>
+              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; line-height: 1.35; color: #334155;">
+                <span class="check" style="color: #0284c7; font-weight: bold; font-size: 0.95rem;">✔</span>
+                <span>Arquivos digitais por matéria</span>
+              </div>
+            </div>
+
+            <!-- Bonus Box -->
+            <div class="plan-bonus-box" style="padding: 12px 14px; margin: 12px 0 16px 0; border-radius: 10px;">
+              <h5 class="plan-bonus-box-title" style="color: #ea580c; font-family: var(--font-heading); font-size: 0.92rem; font-weight: 700; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; margin-top: 0;">
+                🎁 4 bônus inclusos:
+              </h5>
+              <ul class="plan-bonus-list" style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px;">
+                <li style="font-size: 0.84rem; color: #475569; line-height: 1.3;">
+                  <strong style="color: #0f172a; font-weight: 800;">BÔNUS #1:</strong> Meteorologia Visual
+                </li>
+                <li style="font-size: 0.84rem; color: #475569; line-height: 1.3;">
+                  <strong style="color: #0f172a; font-weight: 800;">BÔNUS #2:</strong> Navegação Visual
+                </li>
+                <li style="font-size: 0.84rem; color: #475569; line-height: 1.3;">
+                  <strong style="color: #0f172a; font-weight: 800;">BÔNUS #3:</strong> Checklist Pré-Banca 72H
+                </li>
+                <li style="font-size: 0.84rem; color: #475569; line-height: 1.3;">
+                  <strong style="color: #0f172a; font-weight: 800;">BÔNUS #4:</strong> Pegadinhas e Erros
+                </li>
+              </ul>
+            </div>
+
+            <!-- Second CTA Button -->
+            <div>
+              <a href="https://pay.wiapy.com/6a90885f39d0c7111d7c9630" class="btn-green-cta" style="padding: 13px 18px; font-size: 0.95rem;">
+                <span>GARANTIR ACESSO COMPLETO ↓</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
