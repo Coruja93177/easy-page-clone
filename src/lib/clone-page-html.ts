@@ -1,1 +1,816 @@
-export const pageHtml = "\n  <!-- TOP RED TICKER BAR -->\n  <div class=\"top-ticker-bar\" style=\"justify-content: center;\">\n    <div id=\"countdown-timer\" style=\"display: flex; align-items: center; gap: 8px; font-size: 0.85rem; letter-spacing: 0.5px;\">\n      <span>\ud83d\udca5 ESTA OFERTA EXPIRA EM:</span>\n      <span id=\"timer-display\" style=\"color: #FDE047; font-weight: 900; background: rgba(0,0,0,0.25); padding: 2px 8px; border-radius: 4px; font-family: monospace; font-size: 0.95rem;\">15:00</span>\n    </div>\n  </div>\n  \n\n\n\n  <!-- HERO SECTION -->\n  <header class=\"hero\">\n    <div class=\"hero-glow-bg\"></div>\n    <div class=\"container\">\n      <div class=\"hero-content\">\n        <!-- TOP EYEBROW -->\n        <div class=\"hero-eyebrow-container\">\n          <span class=\"hero-eyebrow-badge\">\n            <span class=\"eyebrow-kart-icon\">\u2708\ufe0f</span>\n            <span>DOMINE AS 5 MAT\u00c9RIAS DA PROVA DA ANAC DE FORMA VISUAL, PR\u00c1TICA E DESCOMPLICADA</span>\n          </span>\n        </div>\n\n        <!-- HERO HEADLINE GROUP -->\n        <div class=\"hero-headline-group\">\n          <!-- INTERMEDIATE RACING BADGE -->\n          <div class=\"atlas-racing-badge-wrapper\">\n            <div class=\"atlas-racing-badge\">\n              <span class=\"racing-flag-mini\">\u2708\ufe0f</span>\n              <span class=\"atlas-badge-text\">120 FICHAS VISUAIS</span>\n              <span class=\"racing-flag-mini\">\u2708\ufe0f</span>\n            </div>\n          </div>\n\n          <!-- MAIN HEADLINE -->\n          <h1 class=\"hero-headline\">\n            <span class=\"headline-line-1\">PARA PILOTO PRIVADO</span>\n            <span class=\"headline-line-2\"><span class=\"headline-kart-accent\">PROVA DA ANAC</span></span>\n          </h1>\n\n          <!-- RACING STRIPES ACCENT -->\n          <div class=\"hero-racing-accent-stripes\">\n            <span class=\"stripe stripe-yellow\"></span>\n            <span class=\"stripe stripe-navy\"></span>\n            <span class=\"stripe stripe-blue\"></span>\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <!-- MOCKUP CONTAINER (Abaixo do Texto da Headline, fora do container para largura m\u00e1xima) -->\n    <div class=\"hero-mockup-container\">\n      <div class=\"hero-mockup-wrapper\">\n        <img src=\"/clone/images/hero_mockup_v6.png\" alt=\"120 Fichas Visuais para Piloto Privado \u2013 ANAC\" class=\"hero-mockup-img\">\n      </div>\n    </div>\n\n    <div class=\"container\">\n      <!-- CTA BUTTON & PROOF (Abaixo do Mockup) -->\n      <p class=\"hero-subheadline\" style=\"margin-top: 24px; margin-bottom: 24px;\">\n        Pare de perder tempo com apostilas densas de centenas de p\u00e1ginas e explica\u00e7\u00f5es confusas. Domine <strong>Regulamento de Tr\u00e1fego A\u00e9reo, Meteorologia, Navega\u00e7\u00e3o, Teoria de Voo e Conhecimentos T\u00e9cnicos</strong> com esquemas visuais prontos para voc\u00ea gabaritar a prova de primeira.\n      </p>\n      <div class=\"hero-cta-wrapper\" style=\"margin-top: 0; margin-bottom: 0;\">\n        <a href=\"#oferta\" class=\"btn-green-cta\">\n          <span>QUERO GABARITAR A PROVA DA ANAC AGORA \u2193</span>\n        </a>\n\n        <div class=\"hero-social-proof\">\n          <div class=\"proof-row\">\n            <div class=\"stars-inline\">\u2605\u2605\u2605\u2605\u2605</div>\n            <div class=\"proof-text\">+ 3.000 alunos e futuros pilotos aprovados na ANAC</div>\n          </div>\n          <div class=\"proof-bullets-row\">\n            \ud83d\udd12 Compra segura \u00b7 7 dias de garantia \u00b7 Acesso vital\u00edcio\n          </div>\n        </div>\n      </div>\n    </div>\n  </header>\n\n  <!-- PR\u00c9VIA DO MATERIAL -->\n  <section class=\"section-padding previa-section\" id=\"previa\">\n    <div class=\"container text-center\">\n      <span class=\"section-badge badge-gold\" style=\"background: rgba(2, 132, 199, 0.08); color: #0284c7; border-color: rgba(2, 132, 199, 0.25);\">\n        \u2708\ufe0f PR\u00c9VIA DO CONTE\u00daDO\n      </span>\n      <h2 class=\"section-title\">Veja as fichas visuais por dentro</h2>\n      <p class=\"section-subtitle\">\n        Fichas visuais esquematizadas com tudo o que cai na prova da ANAC: Regulamentos, Meteorologia, Navega\u00e7\u00e3o A\u00e9rea, Teoria de Voo e Conhecimentos T\u00e9cnicos.\n      </p>\n    </div>\n\n    <!-- Horizontal Carousel Container -->\n    <div class=\"previa-carousel-wrapper\">\n      <div class=\"previa-track\" id=\"previaTrack\">\n        <!-- Set 1: 19 Orthopedics Maps -->\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_1.jpg\" alt=\"Mapa Mental 1\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_2.jpg\" alt=\"Mapa Mental 2\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_3.jpg\" alt=\"Mapa Mental 3\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_4.jpg\" alt=\"Mapa Mental 4\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_5.jpg\" alt=\"Mapa Mental 5\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_6.jpg\" alt=\"Mapa Mental 6\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_7.jpg\" alt=\"Mapa Mental 7\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_8.jpg\" alt=\"Mapa Mental 8\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_9.jpg\" alt=\"Mapa Mental 9\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_10.jpg\" alt=\"Mapa Mental 10\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_11.jpg\" alt=\"Mapa Mental 11\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_12.jpg\" alt=\"Mapa Mental 12\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_13.jpg\" alt=\"Mapa Mental 13\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_14.jpg\" alt=\"Mapa Mental 14\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_15.jpg\" alt=\"Mapa Mental 15\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_16.jpg\" alt=\"Mapa Mental 16\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_17.jpg\" alt=\"Mapa Mental 17\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_18.jpg\" alt=\"Mapa Mental 18\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_19.jpg\" alt=\"Mapa Mental 19\"></div>\n\n        <!-- Duplicated Set for Seamless Infinite Loop -->\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_1.jpg\" alt=\"Mapa Mental 1\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_2.jpg\" alt=\"Mapa Mental 2\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_3.jpg\" alt=\"Mapa Mental 3\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_4.jpg\" alt=\"Mapa Mental 4\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_5.jpg\" alt=\"Mapa Mental 5\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_6.jpg\" alt=\"Mapa Mental 6\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_7.jpg\" alt=\"Mapa Mental 7\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_8.jpg\" alt=\"Mapa Mental 8\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_9.jpg\" alt=\"Mapa Mental 9\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_10.jpg\" alt=\"Mapa Mental 10\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_11.jpg\" alt=\"Mapa Mental 11\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_12.jpg\" alt=\"Mapa Mental 12\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_13.jpg\" alt=\"Mapa Mental 13\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_14.jpg\" alt=\"Mapa Mental 14\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_15.jpg\" alt=\"Mapa Mental 15\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_16.jpg\" alt=\"Mapa Mental 16\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_17.jpg\" alt=\"Mapa Mental 17\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_18.jpg\" alt=\"Mapa Mental 18\"></div>\n        <div class=\"previa-card-item\"><img src=\"/clone/images/map_19.jpg\" alt=\"Mapa Mental 19\"></div>\n      </div>\n    </div>\n  </section>\n\n  <!-- DORES SECTION -->\n  <section class=\"section-padding dores-section\">\n    <div class=\"container\">\n      <h2 class=\"section-title\">\ud83d\udea8 J\u00e1 passou por isso na prepara\u00e7\u00e3o para a ANAC?</h2>\n      <p class=\"section-subtitle\">Dominar a teoria de forma clara \u00e9 o <strong>primeiro passo</strong> para <strong>passar de primeira na banca e iniciar suas horas de voo.</strong></p>\n\n      <div class=\"dores-grid\">\n        <div class=\"dor-card\">\n          <span class=\"dor-icon\">\u2715</span>\n          <p class=\"dor-text\">Fica travado nos c\u00e1lculos de Navega\u00e7\u00e3o A\u00e9rea (rumo verdadeiro, deriva, \u00e2ngulo de corre\u00e7\u00e3o de vento, tri\u00e2ngulo de velocidades e cartas WAC/ERC).</p>\n        </div>\n\n        <div class=\"dor-card\">\n          <span class=\"dor-icon\">\u2715</span>\n          <p class=\"dor-text\">Sente inseguran\u00e7a em Meteorologia com decodifica\u00e7\u00e3o de METAR, SPECI, TAF, forma\u00e7\u00f5es de frentes frias, nevoeiros e gradientes de press\u00e3o.</p>\n        </div>\n\n        <div class=\"dor-card\">\n          <span class=\"dor-icon\">\u2715</span>\n          <p class=\"dor-text\">Se perde no calhama\u00e7o de Regulamentos de Tr\u00e1fego A\u00e9reo com siglas infinitas (VFR, IFR, NOTAM, AIP, espa\u00e7os a\u00e9reos controlados) e regras de separa\u00e7\u00e3o.</p>\n        </div>\n\n        <div class=\"dor-card\">\n          <span class=\"dor-icon\">\u2715</span>\n          <p class=\"dor-text\">Estuda por apostilas densas de centenas de p\u00e1ginas e chega nos simulados com a sensa\u00e7\u00e3o frustrante de que n\u00e3o fixou quase nada.</p>\n        </div>\n\n        <div class=\"dor-card\">\n          <span class=\"dor-icon\">\u2715</span>\n          <p class=\"dor-text\">Tem medo constante de reprovar na banca da ANAC, perder o dinheiro da taxa de inscri\u00e7\u00e3o e atrasar o sonho de tirar a licen\u00e7a de Piloto Privado.</p>\n        </div>\n      </div>\n\n      <div class=\"solution-box-custom\" style=\"text-align: center; margin-top: 32px; font-size: 1.15rem; color: #135f7e; font-weight: 600; line-height: 1.5;\">\n        <strong>\u2192 As 120 Fichas Visuais para Piloto Privado \u2013 ANAC</strong> foram desenhadas para descomplicar cada t\u00f3pico cobrado na prova, permitindo revis\u00f5es r\u00e1pidas e alta fixa\u00e7\u00e3o em minutos.\n      </div>\n    </div>\n  </section>\n\n\n\n  <!-- BIBLIOTECA MULTI-CARROSSEL SECTION -->\n  <section class=\"section-padding biblioteca-section\" id=\"biblioteca\">\n    <div class=\"container text-center\">\n      <span class=\"section-badge badge-gold\" style=\"background: rgba(2, 132, 199, 0.12); color: #0284c7; border-color: rgba(2, 132, 199, 0.3);\">\n        GUIA VISUAL COMPLETO EM PDF\n      </span>\n      <h2 class=\"section-title\" style=\"color: var(--white);\">\n        Explore o conte\u00fado completo das <span style=\"color: #38bdf8;\">120 Fichas Visuais ANAC</span>\n      </h2>\n      <p class=\"section-subtitle\" style=\"color: var(--gray-300);\">\n        Todas as fichas e esquemas visuais s\u00e3o organizados pelas 5 mat\u00e9rias da banca para voc\u00ea consultar direto no celular, tablet, computador ou impresso.\n      </p>\n    </div>\n\n    <!-- Multi-Row Carousels (1 Clockwise, 1 Counter-Clockwise) -->\n    <div class=\"multi-carousel-container\">\n      <!-- ROW 1: Hor\u00e1rio (Esquerda -> Direita) - Mapas 1 a 9 -->\n      <div class=\"multi-carousel-wrapper\">\n        <div class=\"multi-track track-clockwise\">\n          <div class=\"multi-card\"><img src=\"/clone/images/map_1.jpg\" alt=\"Mapa Mental 1\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_2.jpg\" alt=\"Mapa Mental 2\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_3.jpg\" alt=\"Mapa Mental 3\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_4.jpg\" alt=\"Mapa Mental 4\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_5.jpg\" alt=\"Mapa Mental 5\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_6.jpg\" alt=\"Mapa Mental 6\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_7.jpg\" alt=\"Mapa Mental 7\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_8.jpg\" alt=\"Mapa Mental 8\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_9.jpg\" alt=\"Mapa Mental 9\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_10.jpg\" alt=\"Mapa Mental 10\"></div>\n          <!-- Duplicated Set -->\n          <div class=\"multi-card\"><img src=\"/clone/images/map_1.jpg\" alt=\"Mapa Mental 1\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_2.jpg\" alt=\"Mapa Mental 2\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_3.jpg\" alt=\"Mapa Mental 3\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_4.jpg\" alt=\"Mapa Mental 4\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_5.jpg\" alt=\"Mapa Mental 5\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_6.jpg\" alt=\"Mapa Mental 6\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_7.jpg\" alt=\"Mapa Mental 7\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_8.jpg\" alt=\"Mapa Mental 8\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_9.jpg\" alt=\"Mapa Mental 9\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_10.jpg\" alt=\"Mapa Mental 10\"></div>\n        </div>\n      </div>\n\n      <!-- ROW 2: Anti-Hor\u00e1rio (Direita -> Esquerda) - Mapas 10 a 18 -->\n      <div class=\"multi-carousel-wrapper\">\n        <div class=\"multi-track track-counter-clockwise\">\n          <div class=\"multi-card\"><img src=\"/clone/images/map_11.jpg\" alt=\"Mapa Mental 11\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_12.jpg\" alt=\"Mapa Mental 12\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_13.jpg\" alt=\"Mapa Mental 13\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_14.jpg\" alt=\"Mapa Mental 14\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_15.jpg\" alt=\"Mapa Mental 15\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_16.jpg\" alt=\"Mapa Mental 16\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_17.jpg\" alt=\"Mapa Mental 17\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_18.jpg\" alt=\"Mapa Mental 18\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_19.jpg\" alt=\"Mapa Mental 19\"></div>\n          <!-- Duplicated Set -->\n          <div class=\"multi-card\"><img src=\"/clone/images/map_11.jpg\" alt=\"Mapa Mental 11\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_12.jpg\" alt=\"Mapa Mental 12\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_13.jpg\" alt=\"Mapa Mental 13\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_14.jpg\" alt=\"Mapa Mental 14\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_15.jpg\" alt=\"Mapa Mental 15\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_16.jpg\" alt=\"Mapa Mental 16\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_17.jpg\" alt=\"Mapa Mental 17\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_18.jpg\" alt=\"Mapa Mental 18\"></div>\n          <div class=\"multi-card\"><img src=\"/clone/images/map_19.jpg\" alt=\"Mapa Mental 19\"></div>\n        </div>\n      </div>\n    </div>\n  </section>\n\n<!-- ROTINA COMPARISON SECTION -->\n<section class=\"section-padding rotina-section\" id=\"rotina\">\n  <div class=\"container\">\n    <div class=\"text-center\" style=\"margin-bottom: 40px;\">\n      <span class=\"rotina-badge\">VEJA COMO MUDA TUDO</span>\n      <h2 class=\"rotina-title\">Como a sua prepara\u00e7\u00e3o <span class=\"highlight-blue\">muda na pr\u00e1tica:</span></h2>\n      <p class=\"rotina-subtitle\">\n        Compare a frustra\u00e7\u00e3o de estudar com apostilas densas e cansativas com a leveza de revisar por fichas visuais esquematizadas.\n      </p>\n    </div>\n\n    <div class=\"rotina-comparison-card\">\n      <!-- Item 1 -->\n      <div class=\"comparison-row row-decline\">\n        <div class=\"comparison-icon icon-cross\">\u274c</div>\n        <div class=\"comparison-text\">\n          Horas lendo textos prolixos e confusos sem conseguir gravar regras de tr\u00e1fego a\u00e9reo, c\u00f3digos METAR ou f\u00f3rmulas de navega\u00e7\u00e3o.\n        </div>\n      </div>\n\n      <!-- Item 2 -->\n      <div class=\"comparison-row row-accept\">\n        <div class=\"comparison-icon icon-check\">\u2714</div>\n        <div class=\"comparison-text\">\n          Revisar os t\u00f3picos mais cobrados em poucos minutos atrav\u00e9s de infogr\u00e1ficos e diagramas claros e coloridos.\n        </div>\n      </div>\n\n      <!-- Item 3 -->\n      <div class=\"comparison-row row-decline\">\n        <div class=\"comparison-icon icon-cross\">\u274c</div>\n        <div class=\"comparison-text\">\n          Fazer simulados \u00e0s cegas, errando pegadinhas cl\u00e1ssicas da banca por falta de esquematiza\u00e7\u00e3o visual da mat\u00e9ria.\n        </div>\n      </div>\n\n      <!-- Item 4 -->\n      <div class=\"comparison-row row-accept\">\n        <div class=\"comparison-icon icon-check\">\u2714</div>\n        <div class=\"comparison-text\">\n          Macetes visuais de Teoria de Voo, aerodin\u00e2mica, eixos, estabilidade e grupos motopropulsores prontos para fixa\u00e7\u00e3o r\u00e1pida.\n        </div>\n      </div>\n\n      <!-- Item 5 -->\n      <div class=\"comparison-row row-decline\">\n        <div class=\"comparison-icon icon-cross\">\u274c</div>\n        <div class=\"comparison-text\">\n          Sensa\u00e7\u00e3o constante de sobrecarga mental e medo de reprovar e ter que pagar nova taxa da banca ANAC.\n        </div>\n      </div>\n\n      <!-- Item 6 -->\n      <div class=\"comparison-row row-accept\">\n        <div class=\"comparison-icon icon-check\">\u2714</div>\n        <div class=\"comparison-text\">\n          Material de consulta r\u00e1pida sempre \u00e0 m\u00e3o no smartphone ou tablet para estudar em qualquer intervalo do seu dia.\n        </div>\n      </div>\n    </div>\n\n    <!-- CTA Button for Rotina Section -->\n    <div style=\"margin-top: 40px; text-align: center;\">\n      <a href=\"#oferta\" class=\"btn-green-cta\" style=\"display: inline-block; width: auto; max-width: 100%; padding: 18px 40px; font-size: 1.15rem; box-shadow: 0 4px 18px rgba(34, 197, 94, 0.25);\">\n        QUERO ESSA PRATICIDADE NOS ESTUDOS \u2193\n      </a>\n      <div class=\"rotina-security-text\">\n        \ud83d\udd12 Compra 100% segura \u00b7 7 dias de garantia \u00b7 Acesso vital\u00edcio\n      </div>\n    </div>\n  </div>\n</section>\n\n\n  <!-- O QUE VOC\u00ca RECEBE -->\n  <section class=\"section-padding recebe-section\" id=\"recebe\">\n    <div class=\"container\">\n      <div class=\"text-center\" style=\"margin-bottom: 50px;\">\n        <h2 class=\"section-title\" style=\"color: #0F172A; font-size: 2.4rem; margin-bottom: 12px; font-weight: 800; text-align: center;\">O que voc\u00ea <span style=\"color: #0284c7;\">recebe</span></h2>\n        <p class=\"section-subtitle\" style=\"color: #475569; font-size: 1.15rem; max-width: 650px; margin: 0 auto; line-height: 1.5; font-weight: 400; text-align: center;\">\n          <strong style=\"color: #0f172a; font-weight: 800;\">120 Fichas Visuais para Piloto Privado \u2013 ANAC</strong> <strong style=\"color: #0f172a; font-weight: 800;\">+ 4 b\u00f4nus exclusivos inclusos</strong>, acess\u00edveis em qualquer tela.\n        </p>\n      </div>\n\n      <!-- CENTERED MOCKUP BOX -->\n      <div class=\"recebe-mockup-wrapper-centered\">\n        <img src=\"/clone/images/recebe_mockup.jpg\" alt=\"120 Fichas Visuais para Piloto Privado \u2013 ANAC\" class=\"recebe-mockup-centered-img\">\n      </div>\n\n      <!-- BLUE VITALICIO BADGE -->\n      <div class=\"recebe-badge-row\">\n        <span class=\"recebe-badge-vitalicio\">\ud83d\udfe2 LIBERADO: ACESSO VITAL\u00cdCIO IMEDIATO</span>\n      </div>\n\n      <!-- CARDS LIST -->\n      <div class=\"recebe-cards-container\">\n        <div class=\"recebe-card\">\n          <div class=\"recebe-card-check\">\u2713</div>\n          <div class=\"recebe-card-text\">120 Fichas Visuais Completas para Piloto Privado \u2013 ANAC em PDF de alta resolu\u00e7\u00e3o</div>\n        </div>\n\n        <div class=\"recebe-card\">\n          <div class=\"recebe-card-check\">\u2713</div>\n          <div class=\"recebe-card-text\">M\u00f3dulo 1 \u2014 Regulamentos de Tr\u00e1fego A\u00e9reo: Espa\u00e7os a\u00e9reos, regras VFR, luzes e regras do ar</div>\n        </div>\n\n        <div class=\"recebe-card\">\n          <div class=\"recebe-card-check\">\u2713</div>\n          <div class=\"recebe-card-text\">M\u00f3dulo 2 \u2014 Meteorologia Aeron\u00e1utica: Decodifica\u00e7\u00e3o METAR/TAF, massas de ar, nuvens, ventos e press\u00e3o</div>\n        </div>\n\n        <div class=\"recebe-card\">\n          <div class=\"recebe-card-check\">\u2713</div>\n          <div class=\"recebe-card-text\">M\u00f3dulo 3 \u2014 Navega\u00e7\u00e3o A\u00e9rea: Cartas WAC/ERC, c\u00e1lculo de deriva, proa, consumo e computador de voo</div>\n        </div>\n\n        <div class=\"recebe-card\">\n          <div class=\"recebe-card-check\">\u2713</div>\n          <div class=\"recebe-card-text\">M\u00f3dulo 4 \u2014 Teoria de Voo &amp; Aerodin\u00e2mica: For\u00e7as no voo, perfil de asa, sustenta\u00e7\u00e3o, estol e eixos</div>\n        </div>\n\n        <div class=\"recebe-card\">\n          <div class=\"recebe-card-check\">\u2713</div>\n          <div class=\"recebe-card-text\">M\u00f3dulo 5 \u2014 Conhecimentos T\u00e9cnicos: Motores a combust\u00e3o, sistemas da aeronave e instrumentos de voo</div>\n        </div>\n\n        <div class=\"recebe-card\">\n          <div class=\"recebe-card-check\">\u2713</div>\n          <div class=\"recebe-card-text\">Download imediato e pronto para impress\u00e3o ou consulta no celular, tablet e computador</div>\n        </div>\n\n        <div class=\"recebe-card\">\n          <div class=\"recebe-card-check\">\u2713</div>\n          <div class=\"recebe-card-text\">Acesso vital\u00edcio sem qualquer tipo de mensalidade</div>\n        </div>\n      </div>\n\n      <!-- FOOTER TEXT -->\n      <p class=\"recebe-footer-text\">\n        Receba o acesso imediatamente por e-mail e tenha o guia definitivo para ser aprovado de primeira na banca da ANAC.\n      </p>\n    </div>\n  </section>\n\n  <!-- B\u00d4NUS PREMIUM -->\n  <section class=\"section-padding bonus-section\">\n    <div class=\"container\">\n      <span class=\"section-badge badge-gold\">PRESENTES EXCLUSIVOS</span>\n      <h2 class=\"section-title\" style=\"color: var(--white);\">B\u00f4nus exclusivos <span style=\"color: #38bdf8;\">inclusos</span></h2>\n      <p class=\"section-subtitle\" style=\"color: var(--gray-300);\">\n        Adquirindo o <strong>Plano Completo hoje</strong>, voc\u00ea economiza <strong>R$ 152,00</strong> em b\u00f4nus que leva <strong>inteiramente gr\u00e1tis</strong>:\n      </p>\n\n      <div class=\"bonus-grid\" id=\"bonusGrid\">\n        <!-- Rendered dynamically by JavaScript -->\n      </div>\n\n      <div class=\"bonus-total-box\">\n        <p class=\"bonus-total-text\">\n          Mais de <strong>R$ 152 em b\u00f4nus</strong>. Hoje voc\u00ea recebe tudo gratuitamente no Plano Completo.\n        </p>\n      </div>\n    </div>\n  </section>\n\n  <!-- DEPOIMENTOS SECTION -->\n  <section class=\"section-padding depoimentos-section\">\n    <div class=\"container text-center\">\n      <h2 class=\"section-title\" style=\"color: #0F172A; font-size: 2.4rem; margin-bottom: 12px; font-weight: 800; text-align: center;\">Depoimentos <span style=\"color: #0284c7;\">reais</span></h2>\n      <p class=\"section-subtitle\" style=\"color: #475569; font-size: 1.15rem; max-width: 650px; margin: 0 auto 50px auto; line-height: 1.5; font-weight: 400; text-align: center;\">\n        Mais de <strong style=\"color: #0f172a; font-weight: 800;\">3.000 futuros pilotos</strong> j\u00e1 usam nossas fichas visuais. Veja o que diz quem <strong style=\"color: #0f172a; font-weight: 800;\">foi aprovado de primeira na ANAC</strong>:\n      </p>\n    </div>\n\n    <!-- Infinite Carousel Track Wrapper -->\n    <div class=\"depoimentos-carousel-wrapper\">\n      <div class=\"depoimentos-track\">\n        <!-- Set 1 -->\n        <div class=\"depoimento-card\">\n          <div class=\"depoimento-stars\">\u2b50\u2b50\u2b50\u2b50\u2b50</div>\n          <p class=\"depoimento-quote\">\"As 120 Fichas Visuais salvaram minha prepara\u00e7\u00e3o. Meteorologia e Navega\u00e7\u00e3o pareciam um monstro, mas com os esquemas visuais consegui gabaritar RTA e tirar mais de 90% nas outras mat\u00e9rias da ANAC.\"</p>\n          <div class=\"depoimento-header\">\n            <div class=\"depoimento-profile\">\n              <div class=\"avatar-circle\">CE</div>\n              <div>\n                <h4 class=\"depoimento-name\">Carlos E. <span class=\"badge-verificado\">Verificado</span></h4>\n                <p class=\"depoimento-role\">Piloto Privado de Avi\u00e3o (PP-A) Aprovado</p>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"depoimento-card\">\n          <div class=\"depoimento-stars\">\u2b50\u2b50\u2b50\u2b50\u2b50</div>\n          <p class=\"depoimento-quote\">\"Sempre tive muita dificuldade em decorar as siglas de regulamentos e entender vento de proa e trav\u00e9s. O material \u00e9 direto ao ponto, lindo e super did\u00e1tico. Valeu cada centavo!\"</p>\n          <div class=\"depoimento-header\">\n            <div class=\"depoimento-profile\">\n              <div class=\"avatar-circle\">AS</div>\n              <div>\n                <h4 class=\"depoimento-name\">Amanda S. <span class=\"badge-verificado\">Verificado</span></h4>\n                <p class=\"depoimento-role\">Aluna de Piloto Comercial / PP Aprovada</p>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"depoimento-card\">\n          <div class=\"depoimento-stars\">\u2b50\u2b50\u2b50\u2b50\u2b50</div>\n          <p class=\"depoimento-quote\">\"As ilustra\u00e7\u00f5es de aerodin\u00e2mica e instrumentos s\u00e3o perfeitas. Em vez de ficar lendo p\u00e1ginas e p\u00e1ginas de texto t\u00e9cnico cansativo, eu revisava as fichas no trajeto para o aeroclube.\"</p>\n          <div class=\"depoimento-header\">\n            <div class=\"depoimento-profile\">\n              <div class=\"avatar-circle\">RP</div>\n              <div>\n                <h4 class=\"depoimento-name\">Rodrigo P. <span class=\"badge-verificado\">Verificado</span></h4>\n                <p class=\"depoimento-role\">Aluno de Avia\u00e7\u00e3o / Futuro Piloto de Linha A\u00e9rea</p>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"depoimento-card\">\n          <div class=\"depoimento-stars\">\u2b50\u2b50\u2b50\u2b50\u2b50</div>\n          <p class=\"depoimento-quote\">\"O guia de decodifica\u00e7\u00e3o METAR e os esquemas de navega\u00e7\u00e3o me deram a seguran\u00e7a que faltava. Passei na banca da ANAC de primeira em todas as 5 mat\u00e9rias sem sufoco.\"</p>\n          <div class=\"depoimento-header\">\n            <div class=\"depoimento-profile\">\n              <div class=\"avatar-circle\">ML</div>\n              <div>\n                <h4 class=\"depoimento-name\">Mariana L. <span class=\"badge-verificado\">Verificado</span></h4>\n                <p class=\"depoimento-role\">Piloto Privado de Avi\u00e3o Aprovada</p>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"depoimento-card\">\n          <div class=\"depoimento-stars\">\u2b50\u2b50\u2b50\u2b50\u2b50</div>\n          <p class=\"depoimento-quote\">\"Material did\u00e1tico de alt\u00edssimo n\u00edvel. Recomendo para todos os meus alunos de aeroclube que precisam fixar a teoria de forma r\u00e1pida e visual antes da prova da ANAC.\"</p>\n          <div class=\"depoimento-header\">\n            <div class=\"depoimento-profile\">\n              <div class=\"avatar-circle\">RT</div>\n              <div>\n                <h4 class=\"depoimento-name\">Roberto T. <span class=\"badge-verificado\">Verificado</span></h4>\n                <p class=\"depoimento-role\">Instrutor de Voo (INVA) e Piloto Comercial</p>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"depoimento-card\">\n          <div class=\"depoimento-stars\">\u2b50\u2b50\u2b50\u2b50\u2b50</div>\n          <p class=\"depoimento-quote\">\"A did\u00e1tica visual \u00e9 fant\u00e1stica. Parei de perder tempo com resumos confusos da internet. As fichas resumem exatamente o que a banca cobra. Nota 10!\"</p>\n          <div class=\"depoimento-header\">\n            <div class=\"depoimento-profile\">\n              <div class=\"avatar-circle\">BH</div>\n              <div>\n                <h4 class=\"depoimento-name\">Bruno H. <span class=\"badge-verificado\">Verificado</span></h4>\n                <p class=\"depoimento-role\">Estudante de Ci\u00eancias Aeron\u00e1uticas</p>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <!-- Duplicated Set for Infinite Loop -->\n        <div class=\"depoimento-card\">\n          <div class=\"depoimento-stars\">\u2b50\u2b50\u2b50\u2b50\u2b50</div>\n          <p class=\"depoimento-quote\">\"As 120 Fichas Visuais salvaram minha prepara\u00e7\u00e3o. Meteorologia e Navega\u00e7\u00e3o pareciam um monstro, mas com os esquemas visuais consegui gabaritar RTA e tirar mais de 90% nas outras mat\u00e9rias da ANAC.\"</p>\n          <div class=\"depoimento-header\">\n            <div class=\"depoimento-profile\">\n              <div class=\"avatar-circle\">CE</div>\n              <div>\n                <h4 class=\"depoimento-name\">Carlos E. <span class=\"badge-verificado\">Verificado</span></h4>\n                <p class=\"depoimento-role\">Piloto Privado de Avi\u00e3o (PP-A) Aprovado</p>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"depoimento-card\">\n          <div class=\"depoimento-stars\">\u2b50\u2b50\u2b50\u2b50\u2b50</div>\n          <p class=\"depoimento-quote\">\"Sempre tive muita dificuldade em decorar as siglas de regulamentos e entender vento de proa e trav\u00e9s. O material \u00e9 direto ao ponto, lindo e super did\u00e1tico. Valeu cada centavo!\"</p>\n          <div class=\"depoimento-header\">\n            <div class=\"depoimento-profile\">\n              <div class=\"avatar-circle\">AS</div>\n              <div>\n                <h4 class=\"depoimento-name\">Amanda S. <span class=\"badge-verificado\">Verificado</span></h4>\n                <p class=\"depoimento-role\">Aluna de Piloto Comercial / PP Aprovada</p>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"depoimento-card\">\n          <div class=\"depoimento-stars\">\u2b50\u2b50\u2b50\u2b50\u2b50</div>\n          <p class=\"depoimento-quote\">\"As ilustra\u00e7\u00f5es de aerodin\u00e2mica e instrumentos s\u00e3o perfeitas. Em vez de ficar lendo p\u00e1ginas e p\u00e1ginas de texto t\u00e9cnico cansativo, eu revisava as fichas no trajeto para o aeroclube.\"</p>\n          <div class=\"depoimento-header\">\n            <div class=\"depoimento-profile\">\n              <div class=\"avatar-circle\">RP</div>\n              <div>\n                <h4 class=\"depoimento-name\">Rodrigo P. <span class=\"badge-verificado\">Verificado</span></h4>\n                <p class=\"depoimento-role\">Aluno de Avia\u00e7\u00e3o / Futuro Piloto de Linha A\u00e9rea</p>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"depoimento-card\">\n          <div class=\"depoimento-stars\">\u2b50\u2b50\u2b50\u2b50\u2b50</div>\n          <p class=\"depoimento-quote\">\"O guia de decodifica\u00e7\u00e3o METAR e os esquemas de navega\u00e7\u00e3o me deram a seguran\u00e7a que faltava. Passei na banca da ANAC de primeira em todas as 5 mat\u00e9rias sem sufoco.\"</p>\n          <div class=\"depoimento-header\">\n            <div class=\"depoimento-profile\">\n              <div class=\"avatar-circle\">ML</div>\n              <div>\n                <h4 class=\"depoimento-name\">Mariana L. <span class=\"badge-verificado\">Verificado</span></h4>\n                <p class=\"depoimento-role\">Piloto Privado de Avi\u00e3o Aprovada</p>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"depoimento-card\">\n          <div class=\"depoimento-stars\">\u2b50\u2b50\u2b50\u2b50\u2b50</div>\n          <p class=\"depoimento-quote\">\"Material did\u00e1tico de alt\u00edssimo n\u00edvel. Recomendo para todos os meus alunos de aeroclube que precisam fixar a teoria de forma r\u00e1pida e visual antes da prova da ANAC.\"</p>\n          <div class=\"depoimento-header\">\n            <div class=\"depoimento-profile\">\n              <div class=\"avatar-circle\">RT</div>\n              <div>\n                <h4 class=\"depoimento-name\">Roberto T. <span class=\"badge-verificado\">Verificado</span></h4>\n                <p class=\"depoimento-role\">Instrutor de Voo (INVA) e Piloto Comercial</p>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"depoimento-card\">\n          <div class=\"depoimento-stars\">\u2b50\u2b50\u2b50\u2b50\u2b50</div>\n          <p class=\"depoimento-quote\">\"A did\u00e1tica visual \u00e9 fant\u00e1stica. Parei de perder tempo com resumos confusos da internet. As fichas resumem exatamente o que a banca cobra. Nota 10!\"</p>\n          <div class=\"depoimento-header\">\n            <div class=\"depoimento-profile\">\n              <div class=\"avatar-circle\">BH</div>\n              <div>\n                <h4 class=\"depoimento-name\">Bruno H. <span class=\"badge-verificado\">Verificado</span></h4>\n                <p class=\"depoimento-role\">Estudante de Ci\u00eancias Aeron\u00e1uticas</p>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n\n  <!-- SECTION DIVIDER -->\n  <div class=\"section-divider-navy\"></div>\n\n  <!-- OFERTA E PRICING -->\n  <section class=\"section-padding oferta-section\" id=\"oferta\">\n    <div class=\"container\">\n      <div class=\"countdown-box\">\n        <div style=\"font-size: 0.8rem; font-weight: 800; color: #ea580c; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; display: flex; align-items: center; justify-content: center; gap: 6px;\">\n          \u23f0 OFERTA POR TEMPO LIMITADO\n        </div>\n        <div style=\"font-size: 1.15rem; font-weight: 800; color: #0f172a; font-family: var(--font-heading); line-height: 1.3;\">\n          Esta oferta \u00e9 v\u00e1lida somente hoje, <span id=\"current-date-display\">...</span>\n        </div>\n      </div>\n\n      <h2 class=\"section-title\" style=\"color: var(--white); font-size: 2.5rem; font-weight: 800; margin-bottom: 12px; text-align: center;\">Escolha o seu <span style=\"color: #38bdf8;\">plano</span></h2>\n      <p class=\"section-subtitle\" style=\"color: var(--gray-300); font-size: 1.1rem; text-align: center; max-width: 600px; margin: 0 auto 40px auto; line-height: 1.5;\">Garanta o <strong>acesso imediato</strong> \u00e0s 120 Fichas Visuais para Piloto Privado \u2013 ANAC com <strong>garantia incondicional.</strong></p>\n\n      <div class=\"pricing-grid\">\n        <!-- PLANO B\u00c1SICO -->\n        <div class=\"pricing-card plan-basic-card\" style=\"display: flex; flex-direction: column; justify-content: space-between;\">\n          <div>\n            <!-- Capsule Badge -->\n            <div style=\"text-align: center; margin-bottom: 12px; margin-top: 10px;\">\n              <span class=\"plan-capsule-badge\" style=\"background: rgba(100, 116, 139, 0.05); border: 1px solid rgba(100, 116, 139, 0.15); color: #64748b;\">Acesso Simples</span>\n            </div>\n\n            <h3 class=\"plan-name\" style=\"text-align: center; margin-bottom: 24px; font-size: 1.6rem; font-weight: 800;\">Plano B\u00e1sico</h3>\n\n            <!-- Features List -->\n            <div class=\"plan-features\" style=\"margin-bottom: 32px;\">\n              <div class=\"plan-feature-item\" style=\"display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;\">\n                <span class=\"check\" style=\"color: #0284c7; font-weight: bold;\">\u2714</span>\n                <span>Acesso ao pacote b\u00e1sico de Fichas Visuais (50 fichas essenciais)</span>\n              </div>\n              <div class=\"plan-feature-item\" style=\"display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;\">\n                <span class=\"check\" style=\"color: #0284c7; font-weight: bold;\">\u2714</span>\n                <span>Suporte por email</span>\n              </div>\n              <div class=\"plan-feature-item\" style=\"display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;\">\n                <span class=\"check\" style=\"color: #0284c7; font-weight: bold;\">\u2714</span>\n                <span>Atualiza\u00e7\u00f5es de 6 meses</span>\n              </div>\n              <div class=\"plan-feature-item\" style=\"display: flex; align-items: flex-start; gap: 10px; margin-bottom: 0; font-size: 0.95rem; line-height: 1.4; color: #a1a1aa; font-weight: normal;\">\n                <span class=\"check\" style=\"color: #ef4444; font-weight: bold;\">\u2715</span>\n                <span>Sem os 4 b\u00f4nus pr\u00e1ticos inclusos</span>\n              </div>\n            </div>\n\n            <!-- Price Container -->\n            <div class=\"plan-price-promo-container\" style=\"text-align: center; margin-bottom: 24px;\">\n              <div class=\"plan-price-old\" style=\"font-size: 0.95rem; color: #64748b; margin-bottom: 2px;\">por apenas:</div>\n              <div class=\"plan-price-box\" style=\"justify-content: center; margin-bottom: 4px; display: flex; align-items: baseline; gap: 4px;\">\n                <span class=\"plan-currency\" style=\"color: #0f172a; font-size: 1.8rem; font-weight: 800;\">R$</span>\n                <span class=\"plan-price\" style=\"color: #0f172a; font-size: 4rem; font-weight: 800; line-height: 1;\">20,00</span>\n              </div>\n              <div class=\"plan-period\" style=\"font-size: 0.92rem; color: #475569;\">\n                pagamento \u00fanico\n              </div>\n            </div>\n\n            <!-- White CTA Box Button -->\n            <div style=\"margin-bottom: 24px;\">\n              <button type=\"button\" class=\"btn-basic-cta-box\" onclick=\"document.getElementById('upsellModal').classList.add('active');\" style=\"width: 100%; display: block; background: #ffffff; border: 1px solid rgba(2, 132, 199, 0.15); color: #0f172a; font-family: inherit; font-size: 1.1rem; padding: 16px 20px; font-weight: 800; border-radius: 12px; box-shadow: 0 4px 12px rgba(2, 132, 199, 0.02); cursor: pointer; transition: all 0.2s ease; text-align: center;\">\n                Quero s\u00f3 as fichas b\u00e1sicas\n                <div style=\"font-size: 1.2rem; margin-top: 4px; font-weight: normal; line-height: 1;\">\u2192</div>\n              </button>\n            </div>\n\n            <!-- UPSELL BOX -->\n            <div class=\"plan-basic-upsell-box\" style=\"background: rgba(2, 132, 199, 0.02); border: 1px solid rgba(2, 132, 199, 0.12); border-radius: 12px; padding: 18px; margin-top: 24px; text-align: left;\">\n              <div style=\"display: flex; align-items: center; gap: 8px; margin-bottom: 8px;\">\n                <span style=\"background: #135f7e; color: #ffffff; font-size: 0.75rem; font-weight: 800; padding: 3px 8px; border-radius: 6px;\">94%</span>\n                <span style=\"color: #0f172a; font-size: 0.88rem; font-weight: 800;\">escolhem o Plano Vital\u00edcio</span>\n              </div>\n              <p style=\"font-size: 0.88rem; color: #475569; line-height: 1.4; margin: 0;\">\n                Por apenas <strong>R$ 9,90 a mais</strong>, voc\u00ea leva as <strong>120 Fichas Completas</strong> + todos os 4 b\u00f4nus exclusivos de METAR, Computador de Voo e Pegadinhas.\n              </p>\n              <a href=\"#plano-completo\" class=\"upsell-link\" style=\"color: #0284c7; font-weight: 800; text-decoration: underline; display: block; margin-top: 8px; font-family: var(--font-heading);\">Ver Plano Premium Vital\u00edcio \u2193</a>\n            </div>\n          </div>\n        </div>\n\n        <!-- PLANO COMPLETO -->\n        <div class=\"pricing-card featured\" id=\"plano-completo\" style=\"display: flex; flex-direction: column; justify-content: space-between;\">\n          <div class=\"featured-badge\">\u2b50 MAIS ESCOLHIDO</div>\n          \n          <!-- Small Label -->\n          <div style=\"text-align: center; margin-bottom: 12px; margin-top: 10px;\">\n            <span class=\"plan-capsule-badge\">Acesso Completo</span>\n          </div>\n\n          <!-- Mockup Image -->\n          <div class=\"plan-mockup-wrapper\">\n            <img src=\"/clone/images/completo_mockup.png\" alt=\"120 Fichas Visuais Completas para Piloto Privado \u2013 ANAC\" class=\"plan-mockup-img\">\n          </div>\n\n          <!-- Price Container -->\n          <div class=\"plan-price-promo-container\" style=\"text-align: center; margin-bottom: 16px;\">\n            <div class=\"plan-price-old\" style=\"font-size: 0.95rem; color: #64748b; margin-bottom: 2px;\">De <del>R$ 97,00</del> por apenas:</div>\n            <div class=\"plan-price-box\" style=\"justify-content: center; margin-bottom: 4px; display: flex; align-items: baseline; gap: 4px;\">\n              <span class=\"plan-currency\" style=\"color: #0284c7; font-size: 1.8rem; font-weight: 800;\">R$</span>\n              <span class=\"plan-price\" style=\"color: #0284c7; font-size: 4rem; font-weight: 800; line-height: 1;\">29,90</span>\n            </div>\n            <div class=\"plan-period\" style=\"font-size: 0.92rem; color: #475569;\">\n              pagamento \u00fanico <strong>sem mensalidades</strong>\n            </div>\n          </div>\n\n          <!-- First CTA Button -->\n          <div style=\"margin-bottom: 24px;\">\n            <a href=\"https://pay.wiapy.com/6a90885f39d0c7111d7c9630\" class=\"btn-green-cta\" style=\"display: block; width: 100%; text-align: center; box-sizing: border-box;\">\n              GARANTIR MEU ACESSO COMPLETO \u2193\n            </a>\n          </div>\n\n          <!-- Title of Plan -->\n          <h4 style=\"font-family: var(--font-heading); font-size: 1.3rem; font-weight: 800; color: #0f172a; text-align: center; margin-bottom: 20px;\">\n            Plano Premium Vital\u00edcio\n          </h4>\n\n          <!-- Benefits List -->\n          <div class=\"plan-features\" style=\"margin-bottom: 20px;\">\n            <div class=\"plan-feature-item\" style=\"display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;\">\n              <span class=\"check\" style=\"color: #0284c7; font-weight: bold;\">\u2714</span>\n              <span>120 Fichas Visuais Completas para Piloto Privado \u2013 ANAC</span>\n            </div>\n            <div class=\"plan-feature-item\" style=\"display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;\">\n              <span class=\"check\" style=\"color: #0284c7; font-weight: bold;\">\u2714</span>\n              <span>As 5 Mat\u00e9rias: RTA, MET, NAV, Teoria de Voo e Conhecimentos T\u00e9cnicos</span>\n            </div>\n            <div class=\"plan-feature-item\" style=\"display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;\">\n              <span class=\"check\" style=\"color: #0284c7; font-weight: bold;\">\u2714</span>\n              <span>Acesso vital\u00edcio (para sempre)</span>\n            </div>\n            <div class=\"plan-feature-item\" style=\"display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;\">\n              <span class=\"check\" style=\"color: #0284c7; font-weight: bold;\">\u2714</span>\n              <span>Livre para download e impress\u00e3o</span>\n            </div>\n            <div class=\"plan-feature-item\" style=\"display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;\">\n              <span class=\"check\" style=\"color: #0284c7; font-weight: bold;\">\u2714</span>\n              <span>Atualiza\u00e7\u00f5es gratuitas inclusas</span>\n            </div>\n            <div class=\"plan-feature-item\" style=\"display: flex; align-items: flex-start; gap: 10px; margin-bottom: 0; font-size: 0.95rem; line-height: 1.4; color: #334155;\">\n              <span class=\"check\" style=\"color: #0284c7; font-weight: bold;\">\u2714</span>\n              <span>Suporte priorit\u00e1rio no WhatsApp</span>\n            </div>\n          </div>\n\n          <!-- Bonus Box -->\n          <div class=\"plan-bonus-box\">\n            <h5 class=\"plan-bonus-box-title\" style=\"color: #135f7e; font-family: var(--font-heading); font-size: 1.05rem; font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 6px; margin-top: 0;\">\n              \ud83c\udf81 Economia de R$ 152,00 em B\u00f4nus Inclusos:\n            </h5>\n            <ul class=\"plan-bonus-list\" style=\"margin: 0; padding: 0; list-style: none;\">\n              <li style=\"font-size: 0.9rem; color: #475569; line-height: 1.4; margin-bottom: 12px;\">\n                <strong style=\"color: #0f172a; font-weight: 800; display: block; font-size: 0.95rem; margin-bottom: 1px;\">B\u00d4NUS #1</strong> Guia Descomplicado de METAR &amp; TAF\n              </li>\n              <li style=\"font-size: 0.9rem; color: #475569; line-height: 1.4; margin-bottom: 12px;\">\n                <strong style=\"color: #0f172a; font-weight: 800; display: block; font-size: 0.95rem; margin-bottom: 1px;\">B\u00d4NUS #2</strong> Manual R\u00e1pido do Computador de Voo E6B\n              </li>\n              <li style=\"font-size: 0.9rem; color: #475569; line-height: 1.4; margin-bottom: 12px;\">\n                <strong style=\"color: #0f172a; font-weight: 800; display: block; font-size: 0.95rem; margin-bottom: 1px;\">B\u00d4NUS #3</strong> Pegadinhas e Quest\u00f5es Frequentes da ANAC\n              </li>\n              <li style=\"font-size: 0.9rem; color: #475569; line-height: 1.4; margin-bottom: 0;\">\n                <strong style=\"color: #0f172a; font-weight: 800; display: block; font-size: 0.95rem; margin-bottom: 1px;\">B\u00d4NUS #4</strong> Flashcards Visuais de Instrumentos de Voo\n              </li>\n            </ul>\n          </div>\n\n          <!-- Second CTA Button -->\n          <div>\n            <a href=\"https://pay.wiapy.com/6a90885f39d0c7111d7c9630\" class=\"btn-green-cta\" style=\"display: block; width: 100%; text-align: center; box-sizing: border-box;\">\n              GARANTIR MEU ACESSO COMPLETO \u2193\n            </a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n\n  <!-- FAQ SECTION -->\n  <section class=\"section-padding faq-section\" id=\"faq\">\n    <div class=\"container\">\n      <span class=\"section-badge badge-navy\">D\u00daVIDAS FREQUENTES</span>\n      <h2 class=\"section-title\">Perguntas Frequentes</h2>\n      <p class=\"section-subtitle\">Tire suas d\u00favidas e fa\u00e7a sua compra com total seguran\u00e7a.</p>\n\n      <div class=\"faq-container\">\n        <div class=\"faq-item\">\n          <button class=\"faq-question\">\n            <span>Recebo imediatamente?</span>\n            <span class=\"faq-icon\">\u25bc</span>\n          </button>\n          <div class=\"faq-answer\">\n            <p>Sim! O acesso \u00e9 100% digital e imediato. Logo ap\u00f3s a confirma\u00e7\u00e3o do pagamento, voc\u00ea receber\u00e1 os links de download direto no seu e-mail e via WhatsApp.</p>\n          </div>\n        </div>\n\n        <div class=\"faq-item\">\n          <button class=\"faq-question\">\n            <span>Posso imprimir as fichas?</span>\n            <span class=\"faq-icon\">\u25bc</span>\n          </button>\n          <div class=\"faq-answer\">\n            <p>Com certeza! Todas as fichas visuais est\u00e3o formatadas em PDF de alt\u00edssima resolu\u00e7\u00e3o, otimizadas para leitura em telas (smartphones, tablets e computadores) e perfeitas para impress\u00e3o em papel para voc\u00ea revisar onde quiser.</p>\n          </div>\n        </div>\n\n        <div class=\"faq-item\">\n          <button class=\"faq-question\">\n            <span>Serve para Piloto Privado de Avi\u00e3o (PP-A) e Helic\u00f3ptero (PP-H)?</span>\n            <span class=\"faq-icon\">\u25bc</span>\n          </button>\n          <div class=\"faq-answer\">\n            <p>Perfeitamente! O material abrange as 5 mat\u00e9rias te\u00f3ricas fundamentais cobradas pela ANAC: Regulamentos de Tr\u00e1fego A\u00e9reo, Meteorologia Aeron\u00e1utica, Navega\u00e7\u00e3o A\u00e9rea, Teoria de Voo e Conhecimentos T\u00e9cnicos de Aeronaves.</p>\n          </div>\n        </div>\n\n        <div class=\"faq-item\">\n          <button class=\"faq-question\">\n            <span>Preciso de conhecimento pr\u00e9vio de avia\u00e7\u00e3o?</span>\n            <span class=\"faq-icon\">\u25bc</span>\n          </button>\n          <div class=\"faq-answer\">\n            <p>N\u00e3o! O material foi desenvolvido com metodologia visual intuitiva, ideal tanto para quem est\u00e1 come\u00e7ando do absoluto zero no curso te\u00f3rico quanto para quem j\u00e1 est\u00e1 fazendo simulados e precisa de revis\u00e3o r\u00e1pida.</p>\n          </div>\n        </div>\n\n        <div class=\"faq-item\">\n          <button class=\"faq-question\">\n            <span>Como as fichas ajudam a passar de primeira na ANAC?</span>\n            <span class=\"faq-icon\">\u25bc</span>\n          </button>\n          <div class=\"faq-answer\">\n            <p>As fichas sintetizam os conceitos mais complexos em esquemas gr\u00e1ficos, fluxogramas e macetes mnem\u00f4nicos. Isso acelera a memoriza\u00e7\u00e3o, elimina a confus\u00e3o com siglas e prepara voc\u00ea para acertar at\u00e9 as quest\u00f5es com pegadinhas.</p>\n          </div>\n        </div>\n\n        <div class=\"faq-item\">\n          <button class=\"faq-question\">\n            <span>O acesso \u00e9 vital\u00edcio?</span>\n            <span class=\"faq-icon\">\u25bc</span>\n          </button>\n          <div class=\"faq-answer\">\n            <p>Sim. Trata-se de um pagamento \u00fanico. Voc\u00ea baixa todos os arquivos e o acesso \u00e9 seu para sempre, sem mensalidades ou taxas extras.</p>\n          </div>\n        </div>\n\n        <div class=\"faq-item\">\n          <button class=\"faq-question\">\n            <span>Existe garantia?</span>\n            <span class=\"faq-icon\">\u25bc</span>\n          </button>\n          <div class=\"faq-answer\">\n            <p>Oferecemos 7 dias de garantia incondicional. Se por qualquer motivo voc\u00ea achar que as 120 Fichas Visuais n\u00e3o superaram suas expectativas, basta nos enviar uma mensagem e devolveremos 100% do valor pago imediatamente.</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n\n  <!-- RODAP\u00c9 -->\n  <footer class=\"footer\">\n    <div class=\"container\">\n      <h2 class=\"footer-title\">\n        Comece hoje a dominar as 5 mat\u00e9rias da ANAC de forma mais organizada, visual e eficiente.\n      </h2>\n\n      <a href=\"#oferta\" class=\"btn-gold\">\n        <span>QUERO MEU ACESSO AGORA</span>\n      </a>\n\n      <div class=\"footer-seals\">\n        <div class=\"seal-item\">\ud83d\udd12 Criptografia SSL 256 bits</div>\n        <div class=\"seal-item\">\ud83d\udee1\ufe0f Garantia incondicional de 7 dias</div>\n        <div class=\"seal-item\">\u26a1 Entrega instant\u00e2nea</div>\n      </div>\n\n      <div class=\"footer-copy\">\n        <p>\u00a9 2026 120 Fichas Visuais para Piloto Privado \u2013 ANAC. Todos os direitos reservados.</p>\n      </div>\n    </div>\n  </footer>\n\n  <!-- UPSELL POPUP MODAL -->\n  <div class=\"upsell-modal-overlay\" id=\"upsellModal\">\n    <div class=\"upsell-modal-content\">\n      <button class=\"modal-close-btn\" id=\"modalCloseBtn\">\u00d7</button>\n      <div class=\"modal-badge\">\ud83d\udd25 OFERTA EXCLUSIVA E \u00daNICA</div>\n      <h3 class=\"modal-title\">Espere! Leve o Plano Completo por apenas <span class=\"highlight-price\">R$ 24,90</span></h3>\n      <p class=\"modal-subtitle\">Adicione todos os 4 b\u00f4nus exclusivos + atualiza\u00e7\u00f5es vital\u00edcias e economize ainda mais hoje.</p>\n      \n      <div class=\"modal-features-list\">\n        <div class=\"modal-feature-item\">\u2714 120 Fichas Visuais Completas para Piloto Privado \u2013 ANAC</div>\n        <div class=\"modal-feature-item\">\u2714 B\u00f4nus 1: Guia Descomplicado de METAR &amp; TAF</div>\n        <div class=\"modal-feature-item\">\u2714 B\u00f4nus 2: Manual R\u00e1pido do Computador de Voo E6B</div>\n        <div class=\"modal-feature-item\">\u2714 B\u00f4nus 3: Pegadinhas e Quest\u00f5es Frequentes da ANAC</div>\n        <div class=\"modal-feature-item\">\u2714 B\u00f4nus 4: Flashcards Visuais de Instrumentos de Voo</div>\n      </div>\n\n      <a href=\"https://pay.wiapy.com/YqcEgq03Icf\" class=\"modal-cta-btn\">\n        Sim, Quero o Plano Completo com Desconto! \u2192\n      </a>\n      \n      <a href=\"https://pay.wiapy.com/aBbtj20fF-Yl\" class=\"modal-decline-link\">\n        N\u00e3o quero economizar R$ 5,00. Quero apenas o Plano B\u00e1sico \u2192\n      </a>\n    </div>\n  </div>\n\n  \n\n\n";
+export const pageHtml = `
+  <!-- TOP RED TICKER BAR -->
+  <div class="top-ticker-bar" style="justify-content: center;">
+    <div id="countdown-timer" style="display: flex; align-items: center; gap: 8px; font-size: 0.85rem; letter-spacing: 0.5px;">
+      <span>💥 ESTA OFERTA EXPIRA EM:</span>
+      <span id="timer-display" style="color: #FDE047; font-weight: 900; background: rgba(0,0,0,0.25); padding: 2px 8px; border-radius: 4px; font-family: monospace; font-size: 0.95rem;">15:00</span>
+    </div>
+  </div>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="hero-glow-bg"></div>
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-headline">
+          REVISE AS <span style="color: #0284c7;">5 MATÉRIAS DA PROVA DA ANAC</span> E DESCUBRA O QUE AINDA PODE FAZER VOCÊ <span style="color: #0284c7;">ERRAR NA BANCA</span>
+        </h1>
+      </div>
+    </div>
+
+    <!-- MOCKUP CONTAINER -->
+    <div class="hero-mockup-container">
+      <div class="hero-mockup-wrapper">
+        <img src="/clone/images/hero_mockup_v6.png" alt="250 Questões Comentadas PPA – Método 70/70 para Piloto Privado" class="hero-mockup-img">
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- SUBHEADLINE & CTA -->
+      <p class="hero-subheadline">
+        Pare de apenas conferir gabaritos sem entender onde você se confundiu. Revise <strong>Regulamentos, Meteorologia, Navegação, Teoria de Voo e Conhecimentos Técnicos</strong> com questões comentadas que explicam a resposta, revelam a pegadinha e mostram o conceito que a banca queria testar.
+      </p>
+      <div class="hero-cta-wrapper">
+        <a href="#oferta" class="btn-green-cta">
+          <span>QUERO REVISAR AS 5 MATÉRIAS AGORA ↓</span>
+        </a>
+
+        <div class="hero-security-note">
+          🔒 Compra segura · Pagamento único · Acesso Digital Imediato
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- PRÉVIA DO CONTEÚDO -->
+  <section class="section-padding previa-section" id="previa">
+    <div class="container text-center">
+      <span class="section-badge badge-gold" style="background: rgba(2, 132, 199, 0.08); color: #0284c7; border-color: rgba(2, 132, 199, 0.25);">
+        ✈️ PRÉVIA DO CONTEÚDO
+      </span>
+      <h2 class="section-title">Veja as questões comentadas por dentro</h2>
+      <p class="section-subtitle">
+        Cada questão foi estruturada para transformar a prática em revisão: você responde, confere o gabarito, entende o motivo, identifica a pegadinha e memoriza o conceito central.
+      </p>
+    </div>
+
+    <!-- Horizontal Carousel Container -->
+    <div class="previa-carousel-wrapper">
+      <div class="previa-track" id="previaTrack">
+        <!-- Set 1 -->
+        <div class="previa-card-item"><img src="/clone/images/map_1.jpg" alt="Questão 1"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_2.jpg" alt="Questão 2"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_3.jpg" alt="Questão 3"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_4.jpg" alt="Questão 4"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_5.jpg" alt="Questão 5"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_6.jpg" alt="Questão 6"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_7.jpg" alt="Questão 7"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_8.jpg" alt="Questão 8"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_9.jpg" alt="Questão 9"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_10.jpg" alt="Questão 10"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_11.jpg" alt="Questão 11"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_12.jpg" alt="Questão 12"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_13.jpg" alt="Questão 13"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_14.jpg" alt="Questão 14"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_15.jpg" alt="Questão 15"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_16.jpg" alt="Questão 16"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_17.jpg" alt="Questão 17"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_18.jpg" alt="Questão 18"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_19.jpg" alt="Questão 19"></div>
+
+        <!-- Duplicated Set for Seamless Infinite Loop -->
+        <div class="previa-card-item"><img src="/clone/images/map_1.jpg" alt="Questão 1"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_2.jpg" alt="Questão 2"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_3.jpg" alt="Questão 3"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_4.jpg" alt="Questão 4"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_5.jpg" alt="Questão 5"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_6.jpg" alt="Questão 6"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_7.jpg" alt="Questão 7"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_8.jpg" alt="Questão 8"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_9.jpg" alt="Questão 9"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_10.jpg" alt="Questão 10"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_11.jpg" alt="Questão 11"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_12.jpg" alt="Questão 12"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_13.jpg" alt="Questão 13"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_14.jpg" alt="Questão 14"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_15.jpg" alt="Questão 15"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_16.jpg" alt="Questão 16"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_17.jpg" alt="Questão 17"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_18.jpg" alt="Questão 18"></div>
+        <div class="previa-card-item"><img src="/clone/images/map_19.jpg" alt="Questão 19"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIBLIOTECA / CONTEÚDO DAS 5 MATÉRIAS -->
+  <section class="section-padding biblioteca-section" id="biblioteca">
+    <div class="container text-center">
+      <span class="section-badge" style="background: rgba(56, 189, 248, 0.12); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.35); font-weight: 800;">
+        ⚡ GUIA PRÁTICO DAS 5 MATÉRIAS
+      </span>
+      <h2 class="section-title" style="color: #ffffff; font-weight: 800;">
+        Explore o conteúdo das <span style="color: #38bdf8;">250 Questões Comentadas PPA</span>
+      </h2>
+      <p class="section-subtitle" style="color: #cbd5e1;">
+        As questões são organizadas pelas cinco matérias da prova, permitindo que você revise cada área separadamente e encontre com facilidade os assuntos em que ainda precisa melhorar.
+      </p>
+
+      <!-- 5 Matérias Cards Grid -->
+      <div class="materias-grid">
+        <div class="materia-card">
+          <div class="materia-header">
+            <h3 class="materia-title">Meteorologia</h3>
+            <span class="materia-badge">60 questões</span>
+          </div>
+          <p class="materia-desc">Atmosfera, pressão, temperatura, umidade, nuvens, ventos, massas de ar, frentes e mensagens meteorológicas, incluindo METAR, TAF e SPECI.</p>
+        </div>
+
+        <div class="materia-card">
+          <div class="materia-header">
+            <h3 class="materia-title">Navegação</h3>
+            <span class="materia-badge">60 questões</span>
+          </div>
+          <p class="materia-desc">Vento, rumo, proa, deriva, cartas, distâncias, velocidades, consumo e conceitos de navegação que costumam gerar confusão.</p>
+        </div>
+
+        <div class="materia-card">
+          <div class="materia-header">
+            <h3 class="materia-title">Regulamentos</h3>
+            <span class="materia-badge">50 questões</span>
+          </div>
+          <p class="materia-desc">Regras do ar, operações VFR, espaços aéreos, procedimentos, siglas e conceitos essenciais de regulamentação.</p>
+        </div>
+
+        <div class="materia-card">
+          <div class="materia-header">
+            <h3 class="materia-title">Teoria de Voo</h3>
+            <span class="materia-badge">40 questões</span>
+          </div>
+          <p class="materia-desc">Aerodinâmica, forças do voo, sustentação, arrasto, estabilidade, comandos, eixos e comportamento da aeronave.</p>
+        </div>
+
+        <div class="materia-card">
+          <div class="materia-header">
+            <h3 class="materia-title">Conhecimentos Técnicos</h3>
+            <span class="materia-badge">40 questões</span>
+          </div>
+          <p class="materia-desc">Motores, sistemas, instrumentos e conhecimentos técnicos essenciais da aeronave.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Multi-Row Carousels -->
+    <div class="multi-carousel-container" style="margin-top: 48px;">
+      <!-- ROW 1 -->
+      <div class="multi-carousel-wrapper">
+        <div class="multi-track track-clockwise">
+          <div class="multi-card"><img src="/clone/images/map_1.jpg" alt="Questão 1"></div>
+          <div class="multi-card"><img src="/clone/images/map_2.jpg" alt="Questão 2"></div>
+          <div class="multi-card"><img src="/clone/images/map_3.jpg" alt="Questão 3"></div>
+          <div class="multi-card"><img src="/clone/images/map_4.jpg" alt="Questão 4"></div>
+          <div class="multi-card"><img src="/clone/images/map_5.jpg" alt="Questão 5"></div>
+          <div class="multi-card"><img src="/clone/images/map_6.jpg" alt="Questão 6"></div>
+          <div class="multi-card"><img src="/clone/images/map_7.jpg" alt="Questão 7"></div>
+          <div class="multi-card"><img src="/clone/images/map_8.jpg" alt="Questão 8"></div>
+          <div class="multi-card"><img src="/clone/images/map_9.jpg" alt="Questão 9"></div>
+          <div class="multi-card"><img src="/clone/images/map_10.jpg" alt="Questão 10"></div>
+          <!-- Duplicated Set -->
+          <div class="multi-card"><img src="/clone/images/map_1.jpg" alt="Questão 1"></div>
+          <div class="multi-card"><img src="/clone/images/map_2.jpg" alt="Questão 2"></div>
+          <div class="multi-card"><img src="/clone/images/map_3.jpg" alt="Questão 3"></div>
+          <div class="multi-card"><img src="/clone/images/map_4.jpg" alt="Questão 4"></div>
+          <div class="multi-card"><img src="/clone/images/map_5.jpg" alt="Questão 5"></div>
+          <div class="multi-card"><img src="/clone/images/map_6.jpg" alt="Questão 6"></div>
+          <div class="multi-card"><img src="/clone/images/map_7.jpg" alt="Questão 7"></div>
+          <div class="multi-card"><img src="/clone/images/map_8.jpg" alt="Questão 8"></div>
+          <div class="multi-card"><img src="/clone/images/map_9.jpg" alt="Questão 9"></div>
+          <div class="multi-card"><img src="/clone/images/map_10.jpg" alt="Questão 10"></div>
+        </div>
+      </div>
+
+      <!-- ROW 2 -->
+      <div class="multi-carousel-wrapper">
+        <div class="multi-track track-counter-clockwise">
+          <div class="multi-card"><img src="/clone/images/map_11.jpg" alt="Questão 11"></div>
+          <div class="multi-card"><img src="/clone/images/map_12.jpg" alt="Questão 12"></div>
+          <div class="multi-card"><img src="/clone/images/map_13.jpg" alt="Questão 13"></div>
+          <div class="multi-card"><img src="/clone/images/map_14.jpg" alt="Questão 14"></div>
+          <div class="multi-card"><img src="/clone/images/map_15.jpg" alt="Questão 15"></div>
+          <div class="multi-card"><img src="/clone/images/map_16.jpg" alt="Questão 16"></div>
+          <div class="multi-card"><img src="/clone/images/map_17.jpg" alt="Questão 17"></div>
+          <div class="multi-card"><img src="/clone/images/map_18.jpg" alt="Questão 18"></div>
+          <div class="multi-card"><img src="/clone/images/map_19.jpg" alt="Questão 19"></div>
+          <!-- Duplicated Set -->
+          <div class="multi-card"><img src="/clone/images/map_11.jpg" alt="Questão 11"></div>
+          <div class="multi-card"><img src="/clone/images/map_12.jpg" alt="Questão 12"></div>
+          <div class="multi-card"><img src="/clone/images/map_13.jpg" alt="Questão 13"></div>
+          <div class="multi-card"><img src="/clone/images/map_14.jpg" alt="Questão 14"></div>
+          <div class="multi-card"><img src="/clone/images/map_15.jpg" alt="Questão 15"></div>
+          <div class="multi-card"><img src="/clone/images/map_16.jpg" alt="Questão 16"></div>
+          <div class="multi-card"><img src="/clone/images/map_17.jpg" alt="Questão 17"></div>
+          <div class="multi-card"><img src="/clone/images/map_18.jpg" alt="Questão 18"></div>
+          <div class="multi-card"><img src="/clone/images/map_19.jpg" alt="Questão 19"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- O QUE VOCÊ RECEBE -->
+  <section class="section-padding recebe-section" id="recebe">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: 40px;">
+        <h2 class="section-title" style="color: #0F172A; font-size: 2.4rem; margin-bottom: 12px; font-weight: 800; text-align: center;">O que você <span style="color: #0284c7;">recebe</span></h2>
+        <p class="section-subtitle" style="color: #475569; font-size: 1.15rem; max-width: 650px; margin: 0 auto; line-height: 1.5; font-weight: 400; text-align: center;">
+          <strong style="color: #0f172a; font-weight: 800;">250 Questões Comentadas PPA — Método 70/70</strong>, organizadas pelas cinco matérias da prova.
+        </p>
+      </div>
+
+      <!-- CENTERED MOCKUP BOX -->
+      <div class="recebe-mockup-wrapper-centered">
+        <img src="/clone/images/recebe_mockup.jpg" alt="250 Questões Comentadas PPA" class="recebe-mockup-centered-img">
+      </div>
+
+      <!-- CARDS LIST -->
+      <div class="recebe-cards-container">
+        <div class="recebe-card">
+          <div class="recebe-card-check">✓</div>
+          <div class="recebe-card-text">250 questões comentadas para Piloto Privado — ANAC</div>
+        </div>
+
+        <div class="recebe-card">
+          <div class="recebe-card-check">✓</div>
+          <div class="recebe-card-text">60 questões de Meteorologia</div>
+        </div>
+
+        <div class="recebe-card">
+          <div class="recebe-card-check">✓</div>
+          <div class="recebe-card-text">60 questões de Navegação</div>
+        </div>
+
+        <div class="recebe-card">
+          <div class="recebe-card-check">✓</div>
+          <div class="recebe-card-text">50 questões de Regulamentos</div>
+        </div>
+
+        <div class="recebe-card">
+          <div class="recebe-card-check">✓</div>
+          <div class="recebe-card-text">40 questões de Teoria de Voo</div>
+        </div>
+
+        <div class="recebe-card">
+          <div class="recebe-card-check">✓</div>
+          <div class="recebe-card-text">40 questões de Conhecimentos Técnicos</div>
+        </div>
+
+        <div class="recebe-card">
+          <div class="recebe-card-check">✓</div>
+          <div class="recebe-card-text">Enunciado com quatro alternativas em cada questão</div>
+        </div>
+
+        <div class="recebe-card">
+          <div class="recebe-card-check">✓</div>
+          <div class="recebe-card-text">Gabarito destacado com explicação objetiva</div>
+        </div>
+
+        <div class="recebe-card">
+          <div class="recebe-card-check">✓</div>
+          <div class="recebe-card-text">Caixa Pegadinha da Banca mostrando onde pode acontecer a confusão</div>
+        </div>
+
+        <div class="recebe-card">
+          <div class="recebe-card-check">✓</div>
+          <div class="recebe-card-text">Caixa Memorize para reforçar o conceito principal</div>
+        </div>
+
+        <div class="recebe-card">
+          <div class="recebe-card-check">✓</div>
+          <div class="recebe-card-text">Bloco O que a banca queria testar revelando o ponto central da questão</div>
+        </div>
+
+        <div class="recebe-card">
+          <div class="recebe-card-check">✓</div>
+          <div class="recebe-card-text">Cadernos de questões comentadas organizados por matéria</div>
+        </div>
+      </div>
+
+      <!-- FOOTER TEXT -->
+      <p class="recebe-footer-text">
+        Use o material como uma camada entre o estudo e o simulado: responda, entenda, corrija e revise antes de testar novamente.
+      </p>
+    </div>
+  </section>
+
+  <!-- BÔNUS PREMIUM -->
+  <section class="section-padding bonus-section">
+    <div class="container">
+      <span class="section-badge badge-gold">PRESENTES EXCLUSIVOS</span>
+      <h2 class="section-title" style="color: var(--white);">Bônus exclusivos <span style="color: #38bdf8;">inclusos</span></h2>
+      <p class="section-subtitle" style="color: var(--gray-300);">
+        Adquirindo o <strong>Plano Premium</strong>, você recebe as 250 Questões Comentadas PPA e mais quatro materiais complementares de revisão:
+      </p>
+
+      <div class="bonus-grid" id="bonusGrid">
+        <!-- Rendered dynamically by JavaScript -->
+      </div>
+
+      <div class="bonus-total-box">
+        <p class="bonus-total-text">
+          As 250 questões e os quatro bônus formam uma preparação de revisão: prática, correção, associação e recuperação do conteúdo antes da banca.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- DEPOIMENTOS DE ALUNOS APROVADOS (EXPLOSÃO DE DOPAMINA) -->
+  <section class="section-padding depoimentos-section" id="depoimentos">
+    <div class="container">
+      <span class="section-badge badge-gold" style="background: rgba(2, 132, 199, 0.1); color: #0284c7; border-color: rgba(2, 132, 199, 0.25);">
+        🔥 QUEM USOU, PASSOU DE PRIMEIRA
+      </span>
+      <h2 class="section-title" style="color: #0f172a; font-size: 2.3rem;">
+        Veja a sensação de ver o <span style="color: #0284c7;">"APROVADO"</span> na tela da ANAC
+      </h2>
+      <p class="section-subtitle" style="color: #475569; max-width: 720px; margin: 0 auto 36px auto;">
+        Pilotos que destravaram Navegação e Meteorologia, pararam de cair em pegadinhas e conquistaram a aprovação com notas acima de 90%.
+      </p>
+
+      <div class="depoimentos-grid">
+        <!-- Depoimento 1 -->
+        <div class="depoimento-card">
+          <div>
+            <div class="depoimento-header">
+              <div class="depoimento-avatar">LR</div>
+              <div class="depoimento-user-info">
+                <span class="depoimento-name">Lucas Rezende</span>
+                <span class="depoimento-role">Aprovado ANAC · 94% de Acertos</span>
+              </div>
+            </div>
+            <div class="depoimento-stars">★★★★★</div>
+            <p class="depoimento-quote">
+              "Eu estava travado em Navegação há quase 2 meses, errando cálculo de deriva e proa nos simulados. Quando peguei as questões comentadas e vi o passo a passo com a caixa <strong>'Pegadinha da Banca'</strong>, minha mente explodiu! Fiz a banca semana passada e <strong>acertei 19 de 20 em NAV</strong>. A sensação de ver a tela de aprovado não tem preço!"
+            </p>
+          </div>
+          <span class="depoimento-highlight">✈️ 19/20 em Navegação</span>
+        </div>
+
+        <!-- Depoimento 2 -->
+        <div class="depoimento-card">
+          <div>
+            <div class="depoimento-header">
+              <div class="depoimento-avatar">BC</div>
+              <div class="depoimento-user-info">
+                <span class="depoimento-name">Beatriz Castanho</span>
+                <span class="depoimento-role">Aluna de Aeroclube · Aprovada PPA</span>
+              </div>
+            </div>
+            <div class="depoimento-stars">★★★★★</div>
+            <p class="depoimento-quote">
+              "Meteorologia era o meu maior pesadelo, eu confundia direto METAR com TAF e os tipos de frentes. Esse material salvou a minha vida! A caixa <em>'O que a banca queria testar'</em> vai direto na ferida. <strong>Passei em todas as 5 matérias de primeira!</strong> Valeu cada centavo, é o melhor investimento pra quem quer voar logo."
+            </p>
+          </div>
+          <span class="depoimento-highlight">🔥 Aprovada nas 5 Matérias de 1ª</span>
+        </div>
+
+        <!-- Depoimento 3 -->
+        <div class="depoimento-card">
+          <div>
+            <div class="depoimento-header">
+              <div class="depoimento-avatar">RF</div>
+              <div class="depoimento-user-info">
+                <span class="depoimento-name">Rodrigo Fagundes</span>
+                <span class="depoimento-role">Estudou Sozinho em Casa</span>
+              </div>
+            </div>
+            <div class="depoimento-stars">★★★★★</div>
+            <p class="depoimento-quote">
+              "Estudar sozinho por livros grossos é muito cansativo. Esse método das 5 etapas é viciante: você responde, entende na hora o erro e fixa na memória. Cheguei na prova da ANAC tão confiante que parecia que eu já tinha visto cada uma das 100 questões antes. <strong>Bati 92% de média geral!</strong>"
+            </p>
+          </div>
+          <span class="depoimento-highlight">🎯 92% de Média Geral</span>
+        </div>
+
+        <!-- Depoimento 4 -->
+        <div class="depoimento-card">
+          <div>
+            <div class="depoimento-header">
+              <div class="depoimento-avatar">GS</div>
+              <div class="depoimento-user-info">
+                <span class="depoimento-name">Gabriel Silveira</span>
+                <span class="depoimento-role">Piloto Privado Formado</span>
+              </div>
+            </div>
+            <div class="depoimento-stars">★★★★★</div>
+            <p class="depoimento-quote">
+              "O diferencial absurdo são os macetes de pegadinha. A banca adora trocar uma palavra para te induzir ao erro em Regulamentos e Teoria de Voo. Quando você treina com esse material comentado, seu cérebro bate o olho e já identifica a armadilha na hora. O coração bate forte de alegria quando você fecha a prova sabendo que passou!"
+            </p>
+          </div>
+          <span class="depoimento-highlight">⚡ Identificou Todas as Pegadinhas</span>
+        </div>
+
+        <!-- Depoimento 5 -->
+        <div class="depoimento-card">
+          <div>
+            <div class="depoimento-header">
+              <div class="depoimento-avatar">MA</div>
+              <div class="depoimento-user-info">
+                <span class="depoimento-name">Mariana Albuquerque</span>
+                <span class="depoimento-role">Piloto Privado Avião (PPA)</span>
+              </div>
+            </div>
+            <div class="depoimento-stars">★★★★★</div>
+            <p class="depoimento-quote">
+              "O <strong>Checklist Pré-Banca 72H</strong> e o módulo de <strong>Meteorologia Visual</strong> do plano completo foram a virada de chave nos meus últimos dias antes da prova. A adrenalina de ver o resultado 'APTO' gerado no sistema da ANAC é indescritível. Não façam a banca sem antes revisar por aqui!"
+            </p>
+          </div>
+          <span class="depoimento-highlight">🏆 Resultado: APTO NA ANAC</span>
+        </div>
+      </div>
+
+      <!-- FORMULÁRIO PARA DEIXAR DEPOIMENTO / FEEDBACK -->
+      <div class="depoimento-form-wrapper" id="form-depoimento-wrapper">
+        <div class="depoimento-form-header">
+          <h3 class="depoimento-form-title">✍️ Já é aluno do material? Deixe seu depoimento</h3>
+          <p class="depoimento-form-subtitle">
+            Conte como foi sua evolução nos estudos ou sua aprovação na banca!
+          </p>
+        </div>
+
+        <form id="depoimento-form" onsubmit="return false;">
+          <div class="depoimento-form-grid">
+            <div class="depoimento-form-group">
+              <label class="depoimento-label" for="depoimento-nome">Seu Nome *</label>
+              <input 
+                type="text" 
+                id="depoimento-nome" 
+                class="depoimento-input" 
+                placeholder="Ex: Gabriel Santos" 
+                required 
+              />
+            </div>
+            <div class="depoimento-form-group">
+              <label class="depoimento-label" for="depoimento-funcao">Sua Situação *</label>
+              <input 
+                type="text" 
+                id="depoimento-funcao" 
+                class="depoimento-input" 
+                placeholder="Ex: Aluno PPA · Aprovado" 
+                required 
+              />
+            </div>
+          </div>
+
+          <div class="depoimento-form-group">
+            <label class="depoimento-label" for="depoimento-texto">Seu Depoimento *</label>
+            <textarea 
+              id="depoimento-texto" 
+              class="depoimento-textarea" 
+              rows="2"
+              placeholder="Escreva brevemente como o material ajudou na sua preparação..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" id="btn-submit-depoimento" class="depoimento-btn-submit">
+            <span>✈️ Enviar Depoimento</span>
+          </button>
+        </form>
+
+        <!-- AVISO DE AVALIAÇÃO / SUCESSO -->
+        <div id="depoimento-success-alert" class="depoimento-feedback-alert">
+          <span class="depoimento-alert-icon">🎉</span>
+          <h4 class="depoimento-alert-title">Depoimento enviado com sucesso!</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION DIVIDER -->
+  <div class="section-divider-navy"></div>
+
+  <!-- OFERTA E PRICING -->
+  <section class="section-padding oferta-section" id="oferta">
+    <div class="container">
+      <div class="countdown-box">
+        <div style="font-size: 0.8rem; font-weight: 800; color: #ea580c; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+          ⏰ CONDIÇÃO ESPECIAL DE ACESSO
+        </div>
+        <div style="font-size: 1.15rem; font-weight: 800; color: #0f172a; font-family: var(--font-heading); line-height: 1.3;">
+          Esta oferta é válida somente hoje, <span id="current-date-display">...</span>
+        </div>
+      </div>
+
+      <h2 class="section-title" style="color: var(--white); font-size: 2.5rem; font-weight: 800; margin-bottom: 12px; text-align: center;">Escolha o seu <span style="color: #38bdf8;">plano</span></h2>
+      <p class="section-subtitle" style="color: var(--gray-300); font-size: 1.1rem; text-align: center; max-width: 650px; margin: 0 auto 40px auto; line-height: 1.5;">
+        Garanta o acesso às 250 Questões Comentadas PPA e escolha entre o produto principal ou o pacote com os quatro bônus de revisão.
+      </p>
+
+      <div class="pricing-grid">
+        <!-- PLANO BÁSICO -->
+        <div class="pricing-card plan-basic-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <!-- Capsule Badge -->
+            <div style="text-align: center; margin-bottom: 12px; margin-top: 10px;">
+              <span class="plan-capsule-badge" style="background: rgba(100, 116, 139, 0.05); border: 1px solid rgba(100, 116, 139, 0.15); color: #64748b;">ACESSO SIMPLES</span>
+            </div>
+
+            <h3 class="plan-name" style="text-align: center; margin-bottom: 24px; font-size: 1.6rem; font-weight: 800;">Plano Básico</h3>
+
+            <!-- Features List -->
+            <div class="plan-features" style="margin-bottom: 32px;">
+              <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;">
+                <span class="check" style="color: #0284c7; font-weight: bold;">✔</span>
+                <span>250 Questões Comentadas PPA</span>
+              </div>
+              <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;">
+                <span class="check" style="color: #0284c7; font-weight: bold;">✔</span>
+                <span>Garantia de 7 dias</span>
+              </div>
+              <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;">
+                <span class="check" style="color: #0284c7; font-weight: bold;">✔</span>
+                <span>Acesso imediato</span>
+              </div>
+              <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;">
+                <span class="check" style="color: #0284c7; font-weight: bold;">✔</span>
+                <span>Acesso vitalício</span>
+              </div>
+              <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 0; font-size: 0.95rem; line-height: 1.4; color: #a1a1aa; font-weight: normal;">
+                <span class="check" style="color: #ef4444; font-weight: bold;">✕</span>
+                <span>Sem os quatro bônus complementares</span>
+              </div>
+            </div>
+
+            <!-- Price Container -->
+            <div class="plan-price-promo-container" style="text-align: center; margin-bottom: 24px;">
+              <div class="plan-price-old" style="font-size: 0.95rem; color: #64748b; margin-bottom: 2px;">por apenas:</div>
+              <div class="plan-price-box" style="justify-content: center; margin-bottom: 4px; display: flex; align-items: baseline; gap: 4px;">
+                <span class="plan-currency" style="color: #0f172a; font-size: 1.8rem; font-weight: 800;">R$</span>
+                <span class="plan-price" style="color: #0f172a; font-size: 4rem; font-weight: 800; line-height: 1;">14,90</span>
+              </div>
+              <div class="plan-period" style="font-size: 0.92rem; color: #475569;">
+                pagamento único
+              </div>
+            </div>
+
+            <!-- White CTA Box Button -->
+            <div style="margin-bottom: 24px;">
+              <button type="button" class="btn-basic-cta-box open-upsell-modal">
+                <span>QUERO AS 250 QUESTÕES COMENTADAS →</span>
+              </button>
+            </div>
+
+            <!-- UPSELL BOX -->
+            <div class="plan-basic-upsell-box" style="background: #f0f9ff; border: 1px dashed #7dd3fc; border-radius: 12px; padding: 16px; margin-top: 20px; text-align: center;">
+              <p style="font-size: 0.88rem; color: #334155; line-height: 1.45; margin: 0; text-align: center;">
+                Por mais <strong>R$ 13,00</strong>, você leva as <strong>250 Questões Comentadas PPA</strong> e todos os quatro bônus de Meteorologia, Navegação, revisão pré-banca e pegadinhas.
+              </p>
+              <a href="#plano-premium" class="upsell-link" style="color: #0284c7; font-weight: 800; text-decoration: underline; display: inline-block; margin-top: 10px; font-size: 0.88rem; font-family: var(--font-heading);">VER PLANO PREMIUM ↓</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PLANO PREMIUM -->
+        <div class="pricing-card featured" id="plano-premium" style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div class="featured-badge">⭐ PLANO PREMIUM</div>
+          
+          <!-- Small Label -->
+          <div style="text-align: center; margin-bottom: 12px; margin-top: 10px;">
+            <span class="plan-capsule-badge">ACESSO COMPLETO</span>
+          </div>
+
+          <!-- Mockup Image -->
+          <div class="plan-mockup-wrapper">
+            <img src="/clone/images/completo_mockup.png" alt="250 Questões Comentadas PPA – Plano Premium" class="plan-mockup-img">
+          </div>
+
+          <!-- Price Container -->
+          <div class="plan-price-promo-container" style="text-align: center; margin-bottom: 16px;">
+            <div class="plan-price-old" style="font-size: 0.95rem; color: #64748b; margin-bottom: 2px;">por apenas:</div>
+            <div class="plan-price-box" style="justify-content: center; margin-bottom: 4px; display: flex; align-items: baseline; gap: 4px;">
+              <span class="plan-currency" style="color: #0284c7; font-size: 1.8rem; font-weight: 800;">R$</span>
+              <span class="plan-price" style="color: #0284c7; font-size: 4rem; font-weight: 800; line-height: 1;">27,90</span>
+            </div>
+            <div class="plan-period" style="font-size: 0.92rem; color: #475569;">
+              pagamento único
+            </div>
+          </div>
+
+          <!-- First CTA Button -->
+          <div style="margin-bottom: 24px;">
+            <a href="https://pay.wiapy.com/6a90885f39d0c7111d7c9630" class="btn-green-cta">
+              <span>GARANTIR MEU ACESSO COMPLETO ↓</span>
+            </a>
+          </div>
+
+          <!-- Title of Plan -->
+          <h4 style="font-family: var(--font-heading); font-size: 1.3rem; font-weight: 800; color: #0f172a; text-align: center; margin-bottom: 20px;">
+            Plano Premium
+          </h4>
+
+          <!-- Benefits List -->
+          <div class="plan-features" style="margin-bottom: 20px;">
+            <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;">
+              <span class="check" style="color: #0284c7; font-weight: bold;">✔</span>
+              <span>250 Questões Comentadas PPA</span>
+            </div>
+            <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;">
+              <span class="check" style="color: #0284c7; font-weight: bold;">✔</span>
+              <span>As cinco matérias: MET, NAV, REG, TV e CTA</span>
+            </div>
+            <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;">
+              <span class="check" style="color: #0284c7; font-weight: bold;">✔</span>
+              <span>Gabarito, explicação, pegadinha, associação e revisão</span>
+            </div>
+            <div class="plan-feature-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; font-size: 0.95rem; line-height: 1.4; color: #334155;">
+              <span class="check" style="color: #0284c7; font-weight: bold;">✔</span>
+              <span>Arquivos digitais organizados por matéria</span>
+            </div>
+          </div>
+
+          <!-- Bonus Box -->
+          <div class="plan-bonus-box">
+            <h5 class="plan-bonus-box-title" style="color: #135f7e; font-family: var(--font-heading); font-size: 1.05rem; font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 6px; margin-top: 0;">
+              🎁 Quatro bônus inclusos:
+            </h5>
+            <ul class="plan-bonus-list" style="margin: 0; padding: 0; list-style: none;">
+              <li style="font-size: 0.9rem; color: #475569; line-height: 1.4; margin-bottom: 12px;">
+                <strong style="color: #0f172a; font-weight: 800; display: block; font-size: 0.95rem; margin-bottom: 1px;">BÔNUS #1</strong> Meteorologia Visual
+              </li>
+              <li style="font-size: 0.9rem; color: #475569; line-height: 1.4; margin-bottom: 12px;">
+                <strong style="color: #0f172a; font-weight: 800; display: block; font-size: 0.95rem; margin-bottom: 1px;">BÔNUS #2</strong> Navegação Visual
+              </li>
+              <li style="font-size: 0.9rem; color: #475569; line-height: 1.4; margin-bottom: 12px;">
+                <strong style="color: #0f172a; font-weight: 800; display: block; font-size: 0.95rem; margin-bottom: 1px;">BÔNUS #3</strong> Checklist Pré-Banca 72H
+              </li>
+              <li style="font-size: 0.9rem; color: #475569; line-height: 1.4; margin-bottom: 0;">
+                <strong style="color: #0f172a; font-weight: 800; display: block; font-size: 0.95rem; margin-bottom: 1px;">BÔNUS #4</strong> Pegadinhas e Erros de Recuperação
+              </li>
+            </ul>
+          </div>
+
+          <!-- Second CTA Button -->
+          <div>
+            <a href="https://pay.wiapy.com/6a90885f39d0c7111d7c9630" class="btn-green-cta">
+              <span>GARANTIR MEU ACESSO COMPLETO ↓</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO DE GARANTIA INCONDICIONAL DE 7 DIAS (DE ACORDO COM A LEI) -->
+  <section class="section-padding garantia-section" id="garantia">
+    <div class="container">
+      <div class="garantia-box">
+        <div class="garantia-badge-col">
+          <div class="garantia-seal-svg-wrapper">
+            <span class="garantia-seal-days">7</span>
+            <span class="garantia-seal-text">DIAS DE</span>
+            <span class="garantia-seal-text">GARANTIA</span>
+          </div>
+        </div>
+
+        <div class="garantia-content-col">
+          <h3 class="garantia-title">
+            Garantia Incondicional de 7 Dias
+          </h3>
+          <p class="garantia-desc">
+            Conforme o <strong>Art. 49 do Código de Defesa do Consumidor (Lei 8.078/90)</strong>, você tem 7 dias de garantia para avaliar o material. Se não ficar satisfeito, basta solicitar o reembolso para receber 100% do valor de volta, sem burocracia.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="section-padding faq-section" id="faq">
+    <div class="container">
+      <span class="section-badge badge-navy">DÚVIDAS FREQUENTES</span>
+      <h2 class="section-title">Perguntas Frequentes</h2>
+      <p class="section-subtitle">Tire suas dúvidas sobre as 250 Questões Comentadas PPA.</p>
+
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Recebo o material após a compra?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Sim. Após a confirmação do pagamento, o acesso ao material digital é liberado pela plataforma.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Posso consultar as questões no celular?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Sim. Os arquivos são digitais e podem ser consultados no celular, tablet ou computador.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Quais matérias estão incluídas?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>O material reúne questões de Regulamentos, Meteorologia, Navegação, Teoria de Voo e Conhecimentos Técnicos.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>O material substitui um curso teórico?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Não. As 250 Questões Comentadas PPA funcionam como uma ferramenta de revisão entre o estudo e o simulado. O objetivo é praticar, identificar erros e revisar conceitos já estudados.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>O produto é apenas um banco de questões?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Não. Cada questão inclui gabarito, explicação objetiva, Pegadinha da Banca, Memorize e O que a banca queria testar.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>O material serve para quem já faz simulados?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Sim. Ele complementa os simulados ao mostrar o motivo do erro e o conceito que precisa ser revisado antes de uma nova tentativa.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Qual é a diferença entre o Plano Básico e o Premium?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>O Plano Básico inclui as 250 Questões Comentadas PPA. O Plano Premium inclui o mesmo produto principal e acrescenta Meteorologia Visual, Navegação Visual, Checklist Pré-Banca 72H e Pegadinhas e Erros de Recuperação.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <div class="container">
+      <h2 class="footer-title">
+        Comece hoje a revisar as cinco matérias da ANAC com questões que explicam, corrigem e ajudam você a memorizar.
+      </h2>
+
+      <a href="#oferta" class="btn-gold">
+        <span>QUERO MEU ACESSO AGORA</span>
+      </a>
+
+      <div class="footer-seals">
+        <div class="seal-item">🔒 Compra segura</div>
+        <div class="seal-item">⚡ Material digital</div>
+        <div class="seal-item">💳 Pagamento único</div>
+      </div>
+
+      <div class="footer-copy">
+        <p>© 2026 250 Questões Comentadas PPA. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- UPSELL POPUP MODAL -->
+  <div class="upsell-modal-overlay" id="upsellModal">
+    <div class="upsell-modal-content">
+      <button class="modal-close-btn" id="modalCloseBtn">×</button>
+      <div class="modal-badge">🔥 OFERTA EXCLUSIVA</div>
+      <h3 class="modal-title">Espere! Leve o Plano Premium por apenas <span class="highlight-price">R$ 19,90</span></h3>
+      <p class="modal-subtitle">Adicione os quatro bônus do Plano Premium por apenas R$ 5,00 a mais que o Plano Básico.</p>
+      
+      <div class="modal-features-list">
+        <div class="modal-feature-item">✔ 250 Questões Comentadas PPA</div>
+        <div class="modal-feature-item">✔ Bônus 1: Meteorologia Visual</div>
+        <div class="modal-feature-item">✔ Bônus 2: Navegação Visual</div>
+        <div class="modal-feature-item">✔ Bônus 3: Checklist Pré-Banca 72H</div>
+        <div class="modal-feature-item">✔ Bônus 4: Pegadinhas e Erros de Recuperação</div>
+      </div>
+
+      <a href="https://pay.wiapy.com/YqcEgq03Icf" class="modal-cta-btn">
+        <span>SIM, QUERO O PLANO PREMIUM POR R$ 19,90 →</span>
+      </a>
+      
+      <a href="https://pay.wiapy.com/aBbtj20fF-Yl" class="modal-decline-link" style="margin-top: 14px;">
+        Não quero adicionar os bônus. Quero apenas o Plano Básico por R$ 14,90 →
+      </a>
+    </div>
+  </div>
+`;

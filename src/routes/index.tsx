@@ -6,21 +6,21 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: "120 Fichas Visuais para Piloto Privado – ANAC | Guia Completo",
+        title: "250 Questões Comentadas PPA – Método 70/70 para Piloto Privado | ANAC",
       },
       {
         name: "description",
         content:
-          "120 Fichas Visuais para Piloto Privado – ANAC. Domine Regulamentos, Meteorologia, Navegação, Teoria de Voo e Conhecimentos Técnicos de forma visual.",
+          "Revise as 5 matérias da prova da ANAC e descubra o que ainda pode fazer você errar na banca com 250 questões comentadas com explicações objetivas e pegadinhas da banca.",
       },
       {
         property: "og:title",
-        content: "120 Fichas Visuais para Piloto Privado – ANAC",
+        content: "250 Questões Comentadas PPA – Método 70/70 para Piloto Privado",
       },
       {
         property: "og:description",
         content:
-          "Domine as 5 matérias da banca da ANAC com resumos e esquemas visuais prontos para você ser aprovado de primeira.",
+          "Revise Regulamentos, Meteorologia, Navegação, Teoria de Voo e Conhecimentos Técnicos com questões comentadas que explicam a resposta, revelam a pegadinha e mostram o conceito.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -75,12 +75,49 @@ function Index() {
 
     // page interactions script
     const script = document.createElement("script");
-    script.src = "/clone/app.js";
+    script.src = `/clone/app.js?v=${Date.now()}`;
     document.body.appendChild(script);
+
+    // direct fallback for comment form
+    const form = document.getElementById("depoimento-form");
+    const alertBox = document.getElementById("depoimento-success-alert");
+    const submitBtn = document.getElementById("btn-submit-depoimento");
+
+    const handleSubmit = (e: Event) => {
+      e.preventDefault();
+      const nomeInput = document.getElementById("depoimento-nome") as HTMLInputElement | null;
+      const textoInput = document.getElementById("depoimento-texto") as HTMLTextAreaElement | null;
+      const nome = nomeInput?.value?.trim();
+      const texto = textoInput?.value?.trim();
+
+      if (!nome || !texto) {
+        return;
+      }
+
+      if (submitBtn) {
+        submitBtn.setAttribute("disabled", "true");
+        submitBtn.innerHTML = "<span>⏳ Enviando seu depoimento...</span>";
+      }
+
+      setTimeout(() => {
+        if (form) form.style.display = "none";
+        if (alertBox) {
+          alertBox.classList.add("show");
+          alertBox.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        }
+      }, 400);
+    };
+
+    if (form) {
+      form.addEventListener("submit", handleSubmit);
+    }
 
     return () => {
       window.clearInterval(interval);
       script.remove();
+      if (form) {
+        form.removeEventListener("submit", handleSubmit);
+      }
     };
   }, []);
 
