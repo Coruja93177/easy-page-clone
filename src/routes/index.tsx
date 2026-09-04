@@ -6,16 +6,16 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: "250 Questões Comentadas PPA – Método 70/70 para Piloto Privado | ANAC",
+        title: "290 Questões Comentadas PPA – Método 70/70 para Piloto Privado | ANAC",
       },
       {
         name: "description",
         content:
-          "Revise as 5 matérias da prova da ANAC e descubra o que ainda pode fazer você errar na banca com 250 questões comentadas com explicações objetivas e pegadinhas da banca.",
+          "Revise as 5 matérias da prova da ANAC e descubra o que ainda pode fazer você errar na banca com 290 questões comentadas com explicações objetivas e pegadinhas da banca.",
       },
       {
         property: "og:title",
-        content: "250 Questões Comentadas PPA – Método 70/70 para Piloto Privado",
+        content: "290 Questões Comentadas PPA – Método 70/70 para Piloto Privado",
       },
       {
         property: "og:description",
@@ -23,7 +23,9 @@ export const Route = createFileRoute("/")({
           "Revise Regulamentos, Meteorologia, Navegação, Teoria de Voo e Conhecimentos Técnicos com questões comentadas que explicam a resposta, revelam a pegadinha e mostram o conceito.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:image", content: "/clone/images/mockup_principal_290.png" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: "/clone/images/mockup_principal_290.png" },
     ],
     links: [
       { rel: "stylesheet", href: "/clone/css/style.css" },

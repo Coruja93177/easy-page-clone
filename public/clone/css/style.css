@@ -1445,16 +1445,16 @@ ul {
 
 .bonus-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 28px;
-  max-width: 1180px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1200px;
   margin: 0 auto 48px auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 992px) {
   .bonus-grid {
     grid-template-columns: 1fr;
-    max-width: 580px;
+    max-width: 540px;
   }
 }
 

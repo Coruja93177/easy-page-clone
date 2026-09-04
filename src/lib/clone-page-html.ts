@@ -20,8 +20,8 @@ export const pageHtml = `
 
     <!-- MOCKUP CONTAINER -->
     <div class="hero-mockup-container">
-      <div class="hero-mockup-wrapper">
-        <img src="/clone/images/hero_mockup_v6.png" alt="250 Questões Comentadas PPA – Método 70/70 para Piloto Privado" class="hero-mockup-img">
+      <div class="hero-mockup-wrapper" style="max-width: 620px; margin: 0 auto;">
+        <img src="/clone/images/mockup_principal_290.png" alt="290 Questões Comentadas PPA – Método 70/70 para Piloto Privado" class="hero-mockup-img" style="border-radius: 16px; box-shadow: 0 16px 36px -10px rgba(15, 23, 42, 0.18);">
       </div>
     </div>
 
@@ -109,7 +109,7 @@ export const pageHtml = `
         ⚡ GUIA PRÁTICO DAS 5 MATÉRIAS
       </span>
       <h2 class="section-title" style="color: #ffffff; font-weight: 800;">
-        Explore o conteúdo das <span style="color: #38bdf8;">250 Questões Comentadas PPA</span>
+        Explore o conteúdo das <span style="color: #38bdf8;">290 Questões Comentadas PPA</span>
       </h2>
       <p class="section-subtitle" style="color: #cbd5e1;">
         As questões são organizadas pelas cinco matérias da prova, permitindo que você revise cada área separadamente e encontre com facilidade os assuntos em que ainda precisa melhorar.
@@ -119,34 +119,34 @@ export const pageHtml = `
       <div class="materias-grid">
         <div class="materia-card">
           <div class="materia-header">
-            <h3 class="materia-title">Meteorologia</h3>
+            <h3 class="materia-title">Meteorologia Aeronáutica</h3>
             <span class="materia-badge">60 questões</span>
           </div>
-          <p class="materia-desc">Atmosfera, pressão, temperatura, umidade, nuvens, ventos, massas de ar, frentes e mensagens meteorológicas, incluindo METAR, TAF e SPECI.</p>
+          <p class="materia-desc">Atmosfera, pressão, temperatura, umidade, nuvens, ventos, massas de ar, frentes e mensagens meteorológicas, incluindo METAR, TAF e SPECI (001–060).</p>
         </div>
 
         <div class="materia-card">
           <div class="materia-header">
-            <h3 class="materia-title">Navegação</h3>
+            <h3 class="materia-title">Navegação Aeronáutica</h3>
             <span class="materia-badge">60 questões</span>
           </div>
-          <p class="materia-desc">Vento, rumo, proa, deriva, cartas, distâncias, velocidades, consumo e conceitos de navegação que costumam gerar confusão.</p>
+          <p class="materia-desc">Vento, rumo, proa, deriva, cartas, distâncias, velocidades, consumo e conceitos de navegação que costumam gerar confusão (061–120).</p>
         </div>
 
         <div class="materia-card">
           <div class="materia-header">
-            <h3 class="materia-title">Regulamentos</h3>
-            <span class="materia-badge">50 questões</span>
+            <h3 class="materia-title">Regulamentos de Tráfego Aéreo</h3>
+            <span class="materia-badge">60 questões</span>
           </div>
-          <p class="materia-desc">Regras do ar, operações VFR, espaços aéreos, procedimentos, siglas e conceitos essenciais de regulamentação.</p>
+          <p class="materia-desc">Regras do ar, operações VFR, espaços aéreos, procedimentos, siglas e conceitos essenciais de regulamentação (121–180).</p>
         </div>
 
         <div class="materia-card">
           <div class="materia-header">
             <h3 class="materia-title">Teoria de Voo</h3>
-            <span class="materia-badge">40 questões</span>
+            <span class="materia-badge">70 questões</span>
           </div>
-          <p class="materia-desc">Aerodinâmica, forças do voo, sustentação, arrasto, estabilidade, comandos, eixos e comportamento da aeronave.</p>
+          <p class="materia-desc">Aerodinâmica, forças do voo, sustentação, arrasto, estabilidade, comandos, eixos e comportamento da aeronave (181–250).</p>
         </div>
 
         <div class="materia-card">
@@ -154,7 +154,7 @@ export const pageHtml = `
             <h3 class="materia-title">Conhecimentos Técnicos</h3>
             <span class="materia-badge">40 questões</span>
           </div>
-          <p class="materia-desc">Motores, sistemas, instrumentos e conhecimentos técnicos essenciais da aeronave.</p>
+          <p class="materia-desc">Motores, sistemas, instrumentos e conhecimentos técnicos essenciais da aeronave (251–290).</p>
         </div>
       </div>
     </div>
@@ -221,45 +221,45 @@ export const pageHtml = `
       <div class="text-center" style="margin-bottom: 40px;">
         <h2 class="section-title" style="color: #0F172A; font-size: 2.4rem; margin-bottom: 12px; font-weight: 800; text-align: center;">O que você <span style="color: #0284c7;">recebe</span></h2>
         <p class="section-subtitle" style="color: #475569; font-size: 1.15rem; max-width: 650px; margin: 0 auto; line-height: 1.5; font-weight: 400; text-align: center;">
-          <strong style="color: #0f172a; font-weight: 800;">250 Questões Comentadas PPA — Método 70/70</strong>, organizadas pelas cinco matérias da prova.
+          <strong style="color: #0f172a; font-weight: 800;">290 Questões Comentadas PPA — Método 70/70</strong>, organizadas pelas cinco matérias da prova.
         </p>
       </div>
 
       <!-- CENTERED MOCKUP BOX -->
-      <div class="recebe-mockup-wrapper-centered">
-        <img src="/clone/images/recebe_mockup.jpg" alt="250 Questões Comentadas PPA" class="recebe-mockup-centered-img">
+      <div class="recebe-mockup-wrapper-centered" style="max-width: 580px; margin: 0 auto 36px auto;">
+        <img src="/clone/images/mockup_principal_290.png" alt="290 Questões Comentadas PPA" class="recebe-mockup-centered-img" style="border-radius: 16px; box-shadow: 0 16px 36px -10px rgba(15, 23, 42, 0.18);">
       </div>
 
       <!-- CARDS LIST -->
       <div class="recebe-cards-container">
         <div class="recebe-card">
           <div class="recebe-card-check">✓</div>
-          <div class="recebe-card-text">250 questões comentadas para Piloto Privado — ANAC</div>
+          <div class="recebe-card-text">290 questões comentadas para Piloto Privado — ANAC (Faixa 001–290)</div>
         </div>
 
         <div class="recebe-card">
           <div class="recebe-card-check">✓</div>
-          <div class="recebe-card-text">60 questões de Meteorologia</div>
+          <div class="recebe-card-text">Meteorologia Aeronáutica: 60 questões (Faixa 001–060)</div>
         </div>
 
         <div class="recebe-card">
           <div class="recebe-card-check">✓</div>
-          <div class="recebe-card-text">60 questões de Navegação</div>
+          <div class="recebe-card-text">Navegação Aeronáutica: 60 questões (Faixa 061–120)</div>
         </div>
 
         <div class="recebe-card">
           <div class="recebe-card-check">✓</div>
-          <div class="recebe-card-text">50 questões de Regulamentos</div>
+          <div class="recebe-card-text">Regulamentos de Tráfego Aéreo: 60 questões (Faixa 121–180)</div>
         </div>
 
         <div class="recebe-card">
           <div class="recebe-card-check">✓</div>
-          <div class="recebe-card-text">40 questões de Teoria de Voo</div>
+          <div class="recebe-card-text">Teoria de Voo: 70 questões (Faixa 181–250)</div>
         </div>
 
         <div class="recebe-card">
           <div class="recebe-card-check">✓</div>
-          <div class="recebe-card-text">40 questões de Conhecimentos Técnicos</div>
+          <div class="recebe-card-text">Conhecimentos Técnicos: 40 questões (Faixa 251–290)</div>
         </div>
 
         <div class="recebe-card">
@@ -306,7 +306,7 @@ export const pageHtml = `
       <span class="section-badge badge-gold">PRESENTES EXCLUSIVOS</span>
       <h2 class="section-title" style="color: var(--white);">Bônus exclusivos <span style="color: #38bdf8;">inclusos</span></h2>
       <p class="section-subtitle" style="color: var(--gray-300);">
-        Adquirindo o <strong>Plano Premium</strong>, você recebe as 250 Questões Comentadas PPA e mais quatro materiais complementares de revisão:
+        Adquirindo o <strong>Plano Premium</strong>, você recebe as 290 Questões Comentadas PPA e mais três materiais complementares de revisão:
       </p>
 
       <div class="bonus-grid" id="bonusGrid">
@@ -315,7 +315,7 @@ export const pageHtml = `
 
       <div class="bonus-total-box">
         <p class="bonus-total-text">
-          As 250 questões e os quatro bônus formam uma preparação de revisão: prática, correção, associação e recuperação do conteúdo antes da banca.
+          As 290 questões e os três bônus formam uma preparação de revisão: prática, correção, associação e recuperação do conteúdo antes da banca.
         </p>
       </div>
     </div>
@@ -421,7 +421,7 @@ export const pageHtml = `
             </div>
             <div class="depoimento-stars">★★★★★</div>
             <p class="depoimento-quote">
-              "O <strong>Checklist Pré-Banca 72H</strong> e o módulo de <strong>Meteorologia Visual</strong> do plano completo foram a virada de chave nos meus últimos dias antes da prova. A adrenalina de ver o resultado 'APTO' gerado no sistema da ANAC é indescritível. Não façam a banca sem antes revisar por aqui!"
+              "O <strong>Cockpit 70/70</strong> e o cronograma <strong>Rota 21</strong> do plano completo foram a virada de chave nos meus últimos dias antes da prova. A adrenalina de ver o resultado 'APTO' gerado no sistema da ANAC é indescritível. Não façam a banca sem antes revisar por aqui!"
             </p>
           </div>
           <span class="depoimento-highlight">🏆 Resultado: APTO NA ANAC</span>
@@ -503,7 +503,7 @@ export const pageHtml = `
 
       <h2 class="section-title" style="color: var(--white); font-size: 2.5rem; font-weight: 800; margin-bottom: 12px; text-align: center;">Escolha o seu <span style="color: #38bdf8;">plano</span></h2>
       <p class="section-subtitle" style="color: var(--gray-300); font-size: 1.1rem; text-align: center; max-width: 650px; margin: 0 auto 40px auto; line-height: 1.5;">
-        Garanta o acesso às 250 Questões Comentadas PPA e escolha entre o produto principal ou o pacote com os quatro bônus de revisão.
+        Garanta o acesso às 290 Questões Comentadas PPA e escolha entre o produto principal ou o pacote com os três bônus de revisão.
       </p>
 
       <div class="pricing-grid">
@@ -521,7 +521,7 @@ export const pageHtml = `
             <div class="plan-features" style="margin-bottom: 20px; gap: 8px;">
               <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; line-height: 1.35; color: #334155;">
                 <span class="check" style="color: #0284c7; font-weight: bold; font-size: 0.95rem;">✔</span>
-                <span>250 Questões Comentadas PPA</span>
+                <span>290 Questões Comentadas PPA</span>
               </div>
               <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; line-height: 1.35; color: #334155;">
                 <span class="check" style="color: #0284c7; font-weight: bold; font-size: 0.95rem;">✔</span>
@@ -537,7 +537,7 @@ export const pageHtml = `
               </div>
               <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; line-height: 1.35; color: #94a3b8; font-weight: normal;">
                 <span class="check" style="color: #ef4444; font-weight: bold; font-size: 0.95rem;">✕</span>
-                <span>Sem os 4 bônus complementares</span>
+                <span>Sem os 3 bônus complementares</span>
               </div>
             </div>
 
@@ -563,7 +563,7 @@ export const pageHtml = `
             <!-- UPSELL BOX -->
             <div class="plan-basic-upsell-box" style="background: #f0f9ff; border: 1px dashed #7dd3fc; border-radius: 10px; padding: 12px 14px; margin-top: 12px; text-align: center;">
               <p style="font-size: 0.84rem; color: #334155; line-height: 1.4; margin: 0; text-align: center;">
-                Por mais <strong>R$ 13,00</strong>, leve o pacote com os <strong>4 bônus exclusivos</strong>.
+                Por mais <strong>R$ 13,00</strong>, leve o pacote com os <strong>3 bônus exclusivos</strong>.
               </p>
               <a href="#plano-premium" class="upsell-link" style="color: #0284c7; font-weight: 800; text-decoration: underline; display: inline-block; margin-top: 6px; font-size: 0.82rem; font-family: var(--font-heading);">VER PLANO PREMIUM ↓</a>
             </div>
@@ -571,81 +571,91 @@ export const pageHtml = `
         </div>
 
         <!-- PLANO PREMIUM -->
-        <div class="pricing-card featured" id="plano-premium" style="display: flex; flex-direction: column; justify-content: space-between; padding: 28px 24px;">
-          <div class="featured-badge" style="font-size: 0.8rem; padding: 5px 16px;">⭐ PLANO PREMIUM</div>
+        <div class="pricing-card featured" id="plano-premium" style="display: flex; flex-direction: column; justify-content: space-between; padding: 28px 24px; border: 2px solid #0284c7; position: relative;">
+          <div class="featured-badge" style="font-size: 0.8rem; padding: 5px 16px; background: linear-gradient(135deg, #0284c7, #0369a1); font-weight: 800; letter-spacing: 0.5px;">⭐ MAIS ESCOLHIDO • MELHOR CUSTO-BENEFÍCIO</div>
           
           <div>
             <!-- Small Label -->
-            <div style="text-align: center; margin-bottom: 8px; margin-top: 6px;">
-              <span class="plan-capsule-badge" style="font-size: 0.78rem; padding: 4px 12px;">ACESSO COMPLETO</span>
+            <div style="text-align: center; margin-bottom: 8px; margin-top: 8px;">
+              <span class="plan-capsule-badge" style="font-size: 0.78rem; padding: 4px 12px; background: rgba(2, 132, 199, 0.1); color: #0284c7; border: 1px solid rgba(2, 132, 199, 0.25); font-weight: 700;">ACESSO COMPLETO + 3 BÔNUS</span>
             </div>
 
             <!-- Mockup Image -->
             <div class="plan-mockup-wrapper" style="margin: 8px auto 12px auto;">
-              <img src="/clone/images/completo_mockup.png" alt="250 Questões Comentadas PPA – Plano Premium" class="plan-mockup-img" style="max-height: 180px;">
+              <img src="/clone/images/mockup_principal_290.png" alt="290 Questões Comentadas PPA – Plano Premium" class="plan-mockup-img" style="max-height: 175px; border-radius: 10px;">
             </div>
 
             <!-- Price Container -->
             <div class="plan-price-promo-container" style="text-align: center; margin-bottom: 14px;">
-              <div class="plan-price-old" style="font-size: 0.88rem; color: #64748b; margin-bottom: 2px;">por apenas:</div>
+              <div style="font-size: 0.86rem; color: #94a3b8; margin-bottom: 1px;">De <span style="text-decoration: line-through;">R$ 97,00</span> por apenas:</div>
               <div class="plan-price-box" style="justify-content: center; margin-bottom: 2px; display: flex; align-items: baseline; gap: 3px;">
                 <span class="plan-currency" style="color: #0284c7; font-size: 1.5rem; font-weight: 800;">R$</span>
                 <span class="plan-price" style="color: #0284c7; font-size: 3.2rem; font-weight: 800; line-height: 1;">27,90</span>
               </div>
-              <div class="plan-period" style="font-size: 0.85rem; color: #475569;">
-                pagamento único
+              <div class="plan-period" style="font-size: 0.85rem; color: #16a34a; font-weight: 700;">
+                ✓ Pagamento único • Acesso vitalício
               </div>
             </div>
 
             <!-- First CTA Button -->
             <div style="margin-bottom: 16px;">
-              <a href="https://pay.wiapy.com/6a90885f39d0c7111d7c9630" class="btn-green-cta" style="padding: 13px 18px; font-size: 0.95rem;">
-                <span>GARANTIR ACESSO COMPLETO ↓</span>
+              <a href="https://pay.wiapy.com/6a90885f39d0c7111d7c9630" class="btn-green-cta" style="padding: 13px 18px; font-size: 0.95rem; box-shadow: 0 4px 14px rgba(22, 163, 74, 0.35);">
+                <span>GARANTIR ACESSO COMPLETO + 3 BÔNUS →</span>
               </a>
+              <div style="font-size: 0.76rem; color: #64748b; text-align: center; margin-top: 6px;">
+                🔒 Compra 100% Segura • Liberação Imediata
+              </div>
             </div>
 
             <!-- Title of Plan -->
-            <h4 style="font-family: var(--font-heading); font-size: 1.18rem; font-weight: 800; color: #0f172a; text-align: center; margin-bottom: 12px;">
-              Plano Premium
+            <h4 style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 800; color: #0f172a; text-align: center; margin-bottom: 12px;">
+              Vantagens do Plano Premium
             </h4>
 
-            <!-- Benefits List -->
+            <!-- Benefits List with High Perceived Value -->
             <div class="plan-features" style="margin-bottom: 14px; gap: 8px;">
-              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; line-height: 1.35; color: #334155;">
+              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.88rem; line-height: 1.35; color: #1e293b;">
                 <span class="check" style="color: #0284c7; font-weight: bold; font-size: 0.95rem;">✔</span>
-                <span>250 Questões Comentadas PPA</span>
+                <span><strong>290 Questões Comentadas PPA</strong> (Completo)</span>
               </div>
-              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; line-height: 1.35; color: #334155;">
+              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.88rem; line-height: 1.35; color: #1e293b;">
                 <span class="check" style="color: #0284c7; font-weight: bold; font-size: 0.95rem;">✔</span>
-                <span>Todas as 5 matérias completas</span>
+                <span><strong>As 5 Matérias ANAC</strong>: MET, NAV, REG, TV e CTA</span>
               </div>
-              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; line-height: 1.35; color: #334155;">
+              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.88rem; line-height: 1.35; color: #1e293b;">
                 <span class="check" style="color: #0284c7; font-weight: bold; font-size: 0.95rem;">✔</span>
-                <span>Gabarito, pegadinhas e revisão</span>
+                <span><strong>Método Anti-Pegadinha</strong>: Gabarito, Análise & Memorize</span>
               </div>
-              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; line-height: 1.35; color: #334155;">
+              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.88rem; line-height: 1.35; color: #1e293b;">
                 <span class="check" style="color: #0284c7; font-weight: bold; font-size: 0.95rem;">✔</span>
-                <span>Arquivos digitais por matéria</span>
+                <span><strong>Arquivos em PDF</strong> para celular, tablet e computador</span>
+              </div>
+              <div class="plan-feature-item" style="display: flex; align-items: center; gap: 8px; font-size: 0.88rem; line-height: 1.35; color: #1e293b;">
+                <span class="check" style="color: #0284c7; font-weight: bold; font-size: 0.95rem;">✔</span>
+                <span><strong>Garantia Total de 7 Dias</strong> com devolução de 100%</span>
               </div>
             </div>
 
-            <!-- Bonus Box -->
-            <div class="plan-bonus-box" style="padding: 12px 14px; margin: 12px 0 16px 0; border-radius: 10px;">
-              <h5 class="plan-bonus-box-title" style="color: #ea580c; font-family: var(--font-heading); font-size: 0.92rem; font-weight: 700; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; margin-top: 0;">
-                🎁 4 bônus inclusos:
-              </h5>
+            <!-- Bonus Box with Perceived Value Highlights -->
+            <div class="plan-bonus-box" style="padding: 12px 14px; margin: 12px 0 16px 0; border-radius: 10px; background: #fff7ed; border: 1px solid #fed7aa;">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                <h5 class="plan-bonus-box-title" style="color: #c2410c; font-family: var(--font-heading); font-size: 0.88rem; font-weight: 800; margin: 0; display: flex; align-items: center; gap: 6px;">
+                  🎁 3 BÔNUS INCLUSOS HOJE:
+                </h5>
+                <span style="font-size: 0.72rem; font-weight: 800; color: #15803d; background: #dcfce7; padding: 2px 6px; border-radius: 4px;">100% GRÁTIS</span>
+              </div>
               <ul class="plan-bonus-list" style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px;">
-                <li style="font-size: 0.84rem; color: #475569; line-height: 1.3;">
-                  <strong style="color: #0f172a; font-weight: 800;">BÔNUS #1:</strong> Meteorologia Visual
+                <li style="font-size: 0.82rem; color: #475569; line-height: 1.3; display: flex; justify-content: space-between; align-items: center;">
+                  <span><strong style="color: #0f172a; font-weight: 700;">#1</strong> Cockpit 70/70</span>
+                  <span style="color: #16a34a; font-weight: 700; font-size: 0.75rem;">GRÁTIS</span>
                 </li>
-                <li style="font-size: 0.84rem; color: #475569; line-height: 1.3;">
-                  <strong style="color: #0f172a; font-weight: 800;">BÔNUS #2:</strong> Navegação Visual
+                <li style="font-size: 0.82rem; color: #475569; line-height: 1.3; display: flex; justify-content: space-between; align-items: center;">
+                  <span><strong style="color: #0f172a; font-weight: 700;">#2</strong> Rota 21</span>
+                  <span style="color: #16a34a; font-weight: 700; font-size: 0.75rem;">GRÁTIS</span>
                 </li>
-                <li style="font-size: 0.84rem; color: #475569; line-height: 1.3;">
-                  <strong style="color: #0f172a; font-weight: 800;">BÔNUS #3:</strong> Checklist Pré-Banca 72H
-                </li>
-                <li style="font-size: 0.84rem; color: #475569; line-height: 1.3;">
-                  <strong style="color: #0f172a; font-weight: 800;">BÔNUS #4:</strong> Pegadinhas e Erros
+                <li style="font-size: 0.82rem; color: #475569; line-height: 1.3; display: flex; justify-content: space-between; align-items: center;">
+                  <span><strong style="color: #0f172a; font-weight: 700;">#3</strong> Mapas Mentais 70/70</span>
+                  <span style="color: #16a34a; font-weight: 700; font-size: 0.75rem;">GRÁTIS</span>
                 </li>
               </ul>
             </div>
@@ -653,7 +663,7 @@ export const pageHtml = `
             <!-- Second CTA Button -->
             <div>
               <a href="https://pay.wiapy.com/6a90885f39d0c7111d7c9630" class="btn-green-cta" style="padding: 13px 18px; font-size: 0.95rem;">
-                <span>GARANTIR ACESSO COMPLETO ↓</span>
+                <span>GARANTIR ACESSO COMPLETO + 3 BÔNUS →</span>
               </a>
             </div>
           </div>
@@ -691,7 +701,7 @@ export const pageHtml = `
     <div class="container">
       <span class="section-badge badge-navy">DÚVIDAS FREQUENTES</span>
       <h2 class="section-title">Perguntas Frequentes</h2>
-      <p class="section-subtitle">Tire suas dúvidas sobre as 250 Questões Comentadas PPA.</p>
+      <p class="section-subtitle">Tire suas dúvidas sobre as 290 Questões Comentadas PPA.</p>
 
       <div class="faq-container">
         <div class="faq-item">
@@ -730,7 +740,7 @@ export const pageHtml = `
             <span class="faq-icon">▼</span>
           </button>
           <div class="faq-answer">
-            <p>Não. As 250 Questões Comentadas PPA funcionam como uma ferramenta de revisão entre o estudo e o simulado. O objetivo é praticar, identificar erros e revisar conceitos já estudados.</p>
+            <p>Não. As 290 Questões Comentadas PPA funcionam como uma ferramenta de revisão entre o estudo e o simulado. O objetivo é praticar, identificar erros e revisar conceitos já estudados.</p>
           </div>
         </div>
 
@@ -760,7 +770,7 @@ export const pageHtml = `
             <span class="faq-icon">▼</span>
           </button>
           <div class="faq-answer">
-            <p>O Plano Básico inclui as 250 Questões Comentadas PPA. O Plano Premium inclui o mesmo produto principal e acrescenta Meteorologia Visual, Navegação Visual, Checklist Pré-Banca 72H e Pegadinhas e Erros de Recuperação.</p>
+            <p>O Plano Básico inclui as 290 Questões Comentadas PPA. O Plano Premium inclui o mesmo produto principal e acrescenta os 3 bônus exclusivos: Cockpit 70/70, Rota 21 e Mapas Mentais 70/70.</p>
           </div>
         </div>
       </div>
@@ -785,7 +795,7 @@ export const pageHtml = `
       </div>
 
       <div class="footer-copy">
-        <p>© 2026 250 Questões Comentadas PPA. Todos os direitos reservados.</p>
+        <p>© 2026 290 Questões Comentadas PPA. Todos os direitos reservados.</p>
       </div>
     </div>
   </footer>
@@ -796,14 +806,13 @@ export const pageHtml = `
       <button class="modal-close-btn" id="modalCloseBtn">×</button>
       <div class="modal-badge">🔥 OFERTA EXCLUSIVA</div>
       <h3 class="modal-title">Espere! Leve o Plano Premium por apenas <span class="highlight-price">R$ 19,90</span></h3>
-      <p class="modal-subtitle">Adicione os quatro bônus do Plano Premium por apenas R$ 5,00 a mais que o Plano Básico.</p>
+      <p class="modal-subtitle">Adicione os três bônus do Plano Premium por apenas R$ 5,00 a mais que o Plano Básico.</p>
       
       <div class="modal-features-list">
-        <div class="modal-feature-item">✔ 250 Questões Comentadas PPA</div>
-        <div class="modal-feature-item">✔ Bônus 1: Meteorologia Visual</div>
-        <div class="modal-feature-item">✔ Bônus 2: Navegação Visual</div>
-        <div class="modal-feature-item">✔ Bônus 3: Checklist Pré-Banca 72H</div>
-        <div class="modal-feature-item">✔ Bônus 4: Pegadinhas e Erros de Recuperação</div>
+        <div class="modal-feature-item">✔ 290 Questões Comentadas PPA</div>
+        <div class="modal-feature-item">✔ Bônus 1: Cockpit 70/70</div>
+        <div class="modal-feature-item">✔ Bônus 2: Rota 21</div>
+        <div class="modal-feature-item">✔ Bônus 3: Mapas Mentais 70/70</div>
       </div>
 
       <a href="https://pay.wiapy.com/YqcEgq03Icf" class="modal-cta-btn">

@@ -129,38 +129,29 @@
   const bonusesData = [
     {
       badge: "🔥 BÔNUS 01",
-      imagem: "/clone/images/completo_mockup.png",
-      titulo: "Meteorologia Visual",
+      imagem: "/clone/images/mockup_bonus_01_cockpit.png",
+      titulo: "Cockpit 70/70",
       descricao:
-        "Nuvens, METAR, TAF e SPECI organizados visualmente para facilitar a revisão dos conceitos que mais exigem memorização.",
+        "Um painel visual que revela seus pontos fracos e mostra exatamente o que corrigir para chegar mais preparado à banca.",
       precoAntigo: "De R$ 47,00",
       destaque: true,
     },
     {
       badge: "🔥 BÔNUS 02",
-      imagem: "/clone/images/recebe_mockup.jpg",
-      titulo: "Navegação Visual",
+      imagem: "/clone/images/mockup_bonus_02_rota21.png",
+      titulo: "Rota 21",
       descricao:
-        "Vento, rumo, proa, deriva e fórmulas apresentados de forma visual para simplificar conceitos e cálculos de Navegação.",
+        "Um plano visual de 21 dias com missões diárias para estudar sem improviso e avançar com segurança rumo ao 70/70.",
       precoAntigo: "De R$ 39,00",
       destaque: false,
     },
     {
       badge: "🔥 BÔNUS 03",
-      imagem: "/clone/images/hero_mockup_v6_1.png",
-      titulo: "Checklist Pré-Banca 72H",
+      imagem: "/clone/images/mockup_bonus_03_mapas.png",
+      titulo: "Mapas Mentais 70/70",
       descricao:
-        "Um roteiro objetivo com os pontos que precisam ser revisados nos três dias anteriores à banca.",
-      precoAntigo: "De R$ 37,00",
-      destaque: false,
-    },
-    {
-      badge: "🔥 BÔNUS 04",
-      imagem: "/clone/images/hero_mockup_v6.png",
-      titulo: "Pegadinhas e Erros de Recuperação",
-      descricao:
-        "Conceitos parecidos e confusões que podem levar ao erro, reunidos para uma revisão final mais direcionada.",
-      precoAntigo: "De R$ 29,00",
+        "Mapas visuais das cinco matérias que conectam os conceitos decisivos e fazem você revisar e memorizar muito mais rápido.",
+      precoAntigo: "De R$ 47,00",
       destaque: false,
     },
   ];

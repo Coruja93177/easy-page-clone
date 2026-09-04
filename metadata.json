@@ -1,6 +1,6 @@
 {
-  "name": "250 Questões Comentadas PPA - Método 70/70",
-  "description": "Revise as 5 matérias da prova da ANAC com 250 questões comentadas que explicam a resposta, revelam a pegadinha e mostram o conceito testado.",
+  "name": "290 Questões Comentadas PPA - Método 70/70",
+  "description": "Revise as 5 matérias da prova da ANAC com 290 questões comentadas que explicam a resposta, revelam a pegadinha e mostram o conceito testado.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
