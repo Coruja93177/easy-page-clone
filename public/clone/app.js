@@ -181,8 +181,8 @@
     return card;
   }
 
-  // Render cards
-  if (bonusGrid) {
+  // Render cards (only if not already pre-rendered in HTML)
+  if (bonusGrid && bonusGrid.children.length === 0) {
     bonusesData.forEach((data) => {
       const cardElement = BonusCard(data);
       bonusGrid.appendChild(cardElement);

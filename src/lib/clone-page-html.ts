@@ -160,7 +160,7 @@ export const pageHtml = `
     </div>
 
     <!-- Multi-Row Carousels -->
-    <div class="multi-carousel-container" style="margin-top: 48px;">
+    <div class="multi-carousel-container" style="margin-top: 48px; display: flex; flex-direction: column; gap: 18px;">
       <!-- ROW 1 -->
       <div class="multi-carousel-wrapper">
         <div class="multi-track track-clockwise">
@@ -171,9 +171,6 @@ export const pageHtml = `
           <div class="multi-card"><img src="/clone/images/map_5.jpg" alt="Questão 5"></div>
           <div class="multi-card"><img src="/clone/images/map_6.jpg" alt="Questão 6"></div>
           <div class="multi-card"><img src="/clone/images/map_7.jpg" alt="Questão 7"></div>
-          <div class="multi-card"><img src="/clone/images/map_8.jpg" alt="Questão 8"></div>
-          <div class="multi-card"><img src="/clone/images/map_9.jpg" alt="Questão 9"></div>
-          <div class="multi-card"><img src="/clone/images/map_10.jpg" alt="Questão 10"></div>
           <!-- Duplicated Set -->
           <div class="multi-card"><img src="/clone/images/map_1.jpg" alt="Questão 1"></div>
           <div class="multi-card"><img src="/clone/images/map_2.jpg" alt="Questão 2"></div>
@@ -182,18 +179,31 @@ export const pageHtml = `
           <div class="multi-card"><img src="/clone/images/map_5.jpg" alt="Questão 5"></div>
           <div class="multi-card"><img src="/clone/images/map_6.jpg" alt="Questão 6"></div>
           <div class="multi-card"><img src="/clone/images/map_7.jpg" alt="Questão 7"></div>
-          <div class="multi-card"><img src="/clone/images/map_8.jpg" alt="Questão 8"></div>
-          <div class="multi-card"><img src="/clone/images/map_9.jpg" alt="Questão 9"></div>
-          <div class="multi-card"><img src="/clone/images/map_10.jpg" alt="Questão 10"></div>
         </div>
       </div>
 
       <!-- ROW 2 -->
       <div class="multi-carousel-wrapper">
         <div class="multi-track track-counter-clockwise">
+          <div class="multi-card"><img src="/clone/images/map_8.jpg" alt="Questão 8"></div>
+          <div class="multi-card"><img src="/clone/images/map_9.jpg" alt="Questão 9"></div>
+          <div class="multi-card"><img src="/clone/images/map_10.jpg" alt="Questão 10"></div>
           <div class="multi-card"><img src="/clone/images/map_11.jpg" alt="Questão 11"></div>
           <div class="multi-card"><img src="/clone/images/map_12.jpg" alt="Questão 12"></div>
           <div class="multi-card"><img src="/clone/images/map_13.jpg" alt="Questão 13"></div>
+          <!-- Duplicated Set -->
+          <div class="multi-card"><img src="/clone/images/map_8.jpg" alt="Questão 8"></div>
+          <div class="multi-card"><img src="/clone/images/map_9.jpg" alt="Questão 9"></div>
+          <div class="multi-card"><img src="/clone/images/map_10.jpg" alt="Questão 10"></div>
+          <div class="multi-card"><img src="/clone/images/map_11.jpg" alt="Questão 11"></div>
+          <div class="multi-card"><img src="/clone/images/map_12.jpg" alt="Questão 12"></div>
+          <div class="multi-card"><img src="/clone/images/map_13.jpg" alt="Questão 13"></div>
+        </div>
+      </div>
+
+      <!-- ROW 3 -->
+      <div class="multi-carousel-wrapper">
+        <div class="multi-track track-clockwise">
           <div class="multi-card"><img src="/clone/images/map_14.jpg" alt="Questão 14"></div>
           <div class="multi-card"><img src="/clone/images/map_15.jpg" alt="Questão 15"></div>
           <div class="multi-card"><img src="/clone/images/map_16.jpg" alt="Questão 16"></div>
@@ -201,9 +211,6 @@ export const pageHtml = `
           <div class="multi-card"><img src="/clone/images/map_18.jpg" alt="Questão 18"></div>
           <div class="multi-card"><img src="/clone/images/map_19.jpg" alt="Questão 19"></div>
           <!-- Duplicated Set -->
-          <div class="multi-card"><img src="/clone/images/map_11.jpg" alt="Questão 11"></div>
-          <div class="multi-card"><img src="/clone/images/map_12.jpg" alt="Questão 12"></div>
-          <div class="multi-card"><img src="/clone/images/map_13.jpg" alt="Questão 13"></div>
           <div class="multi-card"><img src="/clone/images/map_14.jpg" alt="Questão 14"></div>
           <div class="multi-card"><img src="/clone/images/map_15.jpg" alt="Questão 15"></div>
           <div class="multi-card"><img src="/clone/images/map_16.jpg" alt="Questão 16"></div>
@@ -310,12 +317,66 @@ export const pageHtml = `
       </p>
 
       <div class="bonus-grid" id="bonusGrid">
-        <!-- Rendered dynamically by JavaScript -->
+        <!-- Bônus 1 -->
+        <div class="bonus-card bonus-card-highlight">
+          <div class="bonus-badge-top"><span>🔥 BÔNUS 01</span></div>
+          <div class="bonus-card-img-container">
+            <img src="/clone/images/mockup_bonus_01_cockpit.png" alt="Cockpit 70/70" class="bonus-card-img" />
+          </div>
+          <div class="bonus-card-info">
+            <h3 class="bonus-card-title">Cockpit 70/70</h3>
+            <p class="bonus-card-desc">Um painel visual que revela seus pontos fracos e mostra exatamente o que corrigir para chegar mais preparado à banca.</p>
+            <div class="bonus-card-divider"></div>
+            <div class="bonus-card-price-row">
+              <span class="bonus-price-old">De R$ 47,00</span>
+              <span class="bonus-price-free">INCLUSO GRÁTIS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bônus 2 -->
+        <div class="bonus-card">
+          <div class="bonus-badge-top"><span>🔥 BÔNUS 02</span></div>
+          <div class="bonus-card-img-container">
+            <img src="/clone/images/mockup_bonus_02_rota21.png" alt="Rota 21" class="bonus-card-img" />
+          </div>
+          <div class="bonus-card-info">
+            <h3 class="bonus-card-title">Rota 21</h3>
+            <p class="bonus-card-desc">Um plano visual de 21 dias com missões diárias para estudar sem improviso e avançar com segurança rumo ao 70/70.</p>
+            <div class="bonus-card-divider"></div>
+            <div class="bonus-card-price-row">
+              <span class="bonus-price-old">De R$ 39,00</span>
+              <span class="bonus-price-free">INCLUSO GRÁTIS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bônus 3 -->
+        <div class="bonus-card">
+          <div class="bonus-badge-top"><span>🔥 BÔNUS 03</span></div>
+          <div class="bonus-card-img-container">
+            <img src="/clone/images/mockup_bonus_03_mapas.png" alt="Mapas Mentais 70/70" class="bonus-card-img" />
+          </div>
+          <div class="bonus-card-info">
+            <h3 class="bonus-card-title">Mapas Mentais 70/70</h3>
+            <p class="bonus-card-desc">Mapas visuais das cinco matérias que conectam os conceitos decisivos e fazem você revisar e memorizar muito mais rápido.</p>
+            <div class="bonus-card-divider"></div>
+            <div class="bonus-card-price-row">
+              <span class="bonus-price-old">De R$ 47,00</span>
+              <span class="bonus-price-free">INCLUSO GRÁTIS</span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="bonus-total-box">
-        <p class="bonus-total-text">
-          As 290 questões e os três bônus formam uma preparação de revisão: prática, correção, associação e recuperação do conteúdo antes da banca.
+      <div class="bonus-total-box" style="text-align: center; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 14px; padding: 22px 28px; max-width: 720px; margin: 0 auto;">
+        <div style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: rgba(22, 163, 74, 0.15); border: 1px solid rgba(34, 197, 94, 0.4); padding: 4px 14px; border-radius: 20px; margin-bottom: 12px;">
+          <span style="font-size: 0.85rem; font-weight: 800; color: #4ade80;">🎁 VALOR TOTAL DOS 3 BÔNUS:</span>
+          <span style="font-size: 0.85rem; color: #94a3b8; text-decoration: line-through; font-weight: 600;">R$ 133,00</span>
+          <strong style="color: #ffffff; background: #16a34a; padding: 1px 8px; border-radius: 6px; font-size: 0.8rem; font-weight: 800;">100% GRÁTIS NO PLANO PREMIUM</strong>
+        </div>
+        <p class="bonus-total-text" style="font-size: 1.05rem; color: #e2e8f0; margin: 0; line-height: 1.5;">
+          As 290 questões e os três bônus formam uma preparação completa de revisão: prática, correção, associação e recuperação do conteúdo antes da banca.
         </p>
       </div>
     </div>
@@ -546,7 +607,7 @@ export const pageHtml = `
               <div class="plan-price-old" style="font-size: 0.88rem; color: #64748b; margin-bottom: 2px;">por apenas:</div>
               <div class="plan-price-box" style="justify-content: center; margin-bottom: 2px; display: flex; align-items: baseline; gap: 3px;">
                 <span class="plan-currency" style="color: #0f172a; font-size: 1.5rem; font-weight: 800;">R$</span>
-                <span class="plan-price" style="color: #0f172a; font-size: 3.2rem; font-weight: 800; line-height: 1;">14,90</span>
+                <span class="plan-price" style="color: #0f172a; font-size: 3.2rem; font-weight: 800; line-height: 1;">9,90</span>
               </div>
               <div class="plan-period" style="font-size: 0.85rem; color: #475569;">
                 pagamento único
@@ -563,7 +624,7 @@ export const pageHtml = `
             <!-- UPSELL BOX -->
             <div class="plan-basic-upsell-box" style="background: #f0f9ff; border: 1px dashed #7dd3fc; border-radius: 10px; padding: 12px 14px; margin-top: 12px; text-align: center;">
               <p style="font-size: 0.84rem; color: #334155; line-height: 1.4; margin: 0; text-align: center;">
-                Por mais <strong>R$ 13,00</strong>, leve o pacote com os <strong>3 bônus exclusivos</strong>.
+                Por mais <strong>R$ 10,00</strong>, leve o pacote com os <strong>3 bônus exclusivos</strong>.
               </p>
               <a href="#plano-premium" class="upsell-link" style="color: #0284c7; font-weight: 800; text-decoration: underline; display: inline-block; margin-top: 6px; font-size: 0.82rem; font-family: var(--font-heading);">VER PLANO PREMIUM ↓</a>
             </div>
@@ -572,13 +633,8 @@ export const pageHtml = `
 
         <!-- PLANO PREMIUM -->
         <div class="pricing-card featured" id="plano-premium" style="display: flex; flex-direction: column; justify-content: space-between; padding: 28px 24px; border: 2px solid #0284c7; position: relative;">
-          <div class="featured-badge" style="font-size: 0.8rem; padding: 5px 16px; background: linear-gradient(135deg, #0284c7, #0369a1); font-weight: 800; letter-spacing: 0.5px;">⭐ MAIS ESCOLHIDO • MELHOR CUSTO-BENEFÍCIO</div>
-          
           <div>
-            <!-- Small Label -->
-            <div style="text-align: center; margin-bottom: 8px; margin-top: 8px;">
-              <span class="plan-capsule-badge" style="font-size: 0.78rem; padding: 4px 12px; background: rgba(2, 132, 199, 0.1); color: #0284c7; border: 1px solid rgba(2, 132, 199, 0.25); font-weight: 700;">ACESSO COMPLETO + 3 BÔNUS</span>
-            </div>
+            <h3 class="plan-name" style="text-align: center; margin-bottom: 14px; font-size: 1.45rem; font-weight: 800; color: #0f172a;">Plano Premium</h3>
 
             <!-- Mockup Image -->
             <div class="plan-mockup-wrapper" style="margin: 8px auto 12px auto;">
@@ -586,24 +642,14 @@ export const pageHtml = `
             </div>
 
             <!-- Price Container -->
-            <div class="plan-price-promo-container" style="text-align: center; margin-bottom: 14px;">
+            <div class="plan-price-promo-container" style="text-align: center; margin-bottom: 18px;">
               <div style="font-size: 0.86rem; color: #94a3b8; margin-bottom: 1px;">De <span style="text-decoration: line-through;">R$ 97,00</span> por apenas:</div>
               <div class="plan-price-box" style="justify-content: center; margin-bottom: 2px; display: flex; align-items: baseline; gap: 3px;">
                 <span class="plan-currency" style="color: #0284c7; font-size: 1.5rem; font-weight: 800;">R$</span>
-                <span class="plan-price" style="color: #0284c7; font-size: 3.2rem; font-weight: 800; line-height: 1;">27,90</span>
+                <span class="plan-price" style="color: #0284c7; font-size: 3.2rem; font-weight: 800; line-height: 1;">19,90</span>
               </div>
               <div class="plan-period" style="font-size: 0.85rem; color: #16a34a; font-weight: 700;">
                 ✓ Pagamento único • Acesso vitalício
-              </div>
-            </div>
-
-            <!-- First CTA Button -->
-            <div style="margin-bottom: 16px;">
-              <a href="https://pay.wiapy.com/6a90885f39d0c7111d7c9630" class="btn-green-cta" style="padding: 13px 18px; font-size: 0.95rem; box-shadow: 0 4px 14px rgba(22, 163, 74, 0.35);">
-                <span>GARANTIR ACESSO COMPLETO + 3 BÔNUS →</span>
-              </a>
-              <div style="font-size: 0.76rem; color: #64748b; text-align: center; margin-top: 6px;">
-                🔒 Compra 100% Segura • Liberação Imediata
               </div>
             </div>
 
@@ -638,33 +684,53 @@ export const pageHtml = `
 
             <!-- Bonus Box with Perceived Value Highlights -->
             <div class="plan-bonus-box" style="padding: 12px 14px; margin: 12px 0 16px 0; border-radius: 10px; background: #fff7ed; border: 1px solid #fed7aa;">
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
                 <h5 class="plan-bonus-box-title" style="color: #c2410c; font-family: var(--font-heading); font-size: 0.88rem; font-weight: 800; margin: 0; display: flex; align-items: center; gap: 6px;">
                   🎁 3 BÔNUS INCLUSOS HOJE:
                 </h5>
-                <span style="font-size: 0.72rem; font-weight: 800; color: #15803d; background: #dcfce7; padding: 2px 6px; border-radius: 4px;">100% GRÁTIS</span>
+                <span style="font-size: 0.72rem; font-weight: 800; color: #15803d; background: #dcfce7; padding: 2px 7px; border-radius: 4px; letter-spacing: 0.3px;">100% GRÁTIS</span>
               </div>
-              <ul class="plan-bonus-list" style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px;">
+              <ul class="plan-bonus-list" style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 7px;">
                 <li style="font-size: 0.82rem; color: #475569; line-height: 1.3; display: flex; justify-content: space-between; align-items: center;">
                   <span><strong style="color: #0f172a; font-weight: 700;">#1</strong> Cockpit 70/70</span>
-                  <span style="color: #16a34a; font-weight: 700; font-size: 0.75rem;">GRÁTIS</span>
+                  <div style="display: flex; align-items: center; gap: 6px;">
+                    <span style="color: #94a3b8; font-size: 0.76rem; text-decoration: line-through;">R$ 47,00</span>
+                    <strong style="color: #16a34a; font-weight: 800; font-size: 0.78rem;">GRÁTIS</strong>
+                  </div>
                 </li>
                 <li style="font-size: 0.82rem; color: #475569; line-height: 1.3; display: flex; justify-content: space-between; align-items: center;">
                   <span><strong style="color: #0f172a; font-weight: 700;">#2</strong> Rota 21</span>
-                  <span style="color: #16a34a; font-weight: 700; font-size: 0.75rem;">GRÁTIS</span>
+                  <div style="display: flex; align-items: center; gap: 6px;">
+                    <span style="color: #94a3b8; font-size: 0.76rem; text-decoration: line-through;">R$ 39,00</span>
+                    <strong style="color: #16a34a; font-weight: 800; font-size: 0.78rem;">GRÁTIS</strong>
+                  </div>
                 </li>
                 <li style="font-size: 0.82rem; color: #475569; line-height: 1.3; display: flex; justify-content: space-between; align-items: center;">
                   <span><strong style="color: #0f172a; font-weight: 700;">#3</strong> Mapas Mentais 70/70</span>
-                  <span style="color: #16a34a; font-weight: 700; font-size: 0.75rem;">GRÁTIS</span>
+                  <div style="display: flex; align-items: center; gap: 6px;">
+                    <span style="color: #94a3b8; font-size: 0.76rem; text-decoration: line-through;">R$ 47,00</span>
+                    <strong style="color: #16a34a; font-weight: 800; font-size: 0.78rem;">GRÁTIS</strong>
+                  </div>
                 </li>
               </ul>
+              
+              <div style="margin-top: 10px; padding-top: 9px; border-top: 1px dashed #fdba74; display: flex; justify-content: space-between; align-items: center; font-size: 0.79rem;">
+                <span style="color: #7c2d12; font-weight: 600;">Valor total dos bônus:</span>
+                <div>
+                  <span style="color: #94a3b8; text-decoration: line-through; margin-right: 4px; font-weight: 600;">R$ 133,00</span>
+                  <strong style="color: #15803d; font-weight: 800; background: #dcfce7; padding: 1px 6px; border-radius: 4px;">R$ 0,00</strong>
+                </div>
+              </div>
             </div>
 
-            <!-- Second CTA Button -->
-            <div>
-              <a href="https://pay.wiapy.com/6a90885f39d0c7111d7c9630" class="btn-green-cta" style="padding: 13px 18px; font-size: 0.95rem;">
+            <!-- CTA Button with Pulse and Shine -->
+            <div style="margin-top: 18px;">
+              <a href="https://pay.wiapy.com/VAN-BIfmGJTY" class="btn-green-cta btn-pulse-shine" data-checkout-link style="padding: 15px 20px; font-size: 1rem;">
                 <span>GARANTIR ACESSO COMPLETO + 3 BÔNUS →</span>
               </a>
+              <div style="font-size: 0.76rem; color: #64748b; text-align: center; margin-top: 8px;">
+                🔒 Compra 100% Segura • Liberação Imediata
+              </div>
             </div>
           </div>
         </div>
@@ -805,22 +871,50 @@ export const pageHtml = `
     <div class="upsell-modal-content">
       <button class="modal-close-btn" id="modalCloseBtn">×</button>
       <div class="modal-badge">🔥 OFERTA EXCLUSIVA</div>
-      <h3 class="modal-title">Espere! Leve o Plano Premium por apenas <span class="highlight-price">R$ 19,90</span></h3>
+      <h3 class="modal-title">Espere! Leve o Plano Premium por apenas <span class="highlight-price">R$ 14,90</span></h3>
       <p class="modal-subtitle">Adicione os três bônus do Plano Premium por apenas R$ 5,00 a mais que o Plano Básico.</p>
       
       <div class="modal-features-list">
-        <div class="modal-feature-item">✔ 290 Questões Comentadas PPA</div>
-        <div class="modal-feature-item">✔ Bônus 1: Cockpit 70/70</div>
-        <div class="modal-feature-item">✔ Bônus 2: Rota 21</div>
-        <div class="modal-feature-item">✔ Bônus 3: Mapas Mentais 70/70</div>
+        <div class="modal-feature-item" style="display: flex; justify-content: space-between; align-items: center;">
+          <span>✔ 290 Questões Comentadas PPA</span>
+          <span style="color: #0284c7; font-weight: 700; font-size: 0.76rem;">INCLUSO</span>
+        </div>
+        <div class="modal-feature-item" style="display: flex; justify-content: space-between; align-items: center;">
+          <span>✔ Bônus 1: Cockpit 70/70</span>
+          <div style="display: flex; align-items: center; gap: 5px;">
+            <span style="color: #94a3b8; font-size: 0.74rem; text-decoration: line-through;">R$ 47</span>
+            <span style="color: #16a34a; font-weight: 800; font-size: 0.76rem;">GRÁTIS</span>
+          </div>
+        </div>
+        <div class="modal-feature-item" style="display: flex; justify-content: space-between; align-items: center;">
+          <span>✔ Bônus 2: Rota 21</span>
+          <div style="display: flex; align-items: center; gap: 5px;">
+            <span style="color: #94a3b8; font-size: 0.74rem; text-decoration: line-through;">R$ 39</span>
+            <span style="color: #16a34a; font-weight: 800; font-size: 0.76rem;">GRÁTIS</span>
+          </div>
+        </div>
+        <div class="modal-feature-item" style="display: flex; justify-content: space-between; align-items: center;">
+          <span>✔ Bônus 3: Mapas Mentais 70/70</span>
+          <div style="display: flex; align-items: center; gap: 5px;">
+            <span style="color: #94a3b8; font-size: 0.74rem; text-decoration: line-through;">R$ 47</span>
+            <span style="color: #16a34a; font-weight: 800; font-size: 0.76rem;">GRÁTIS</span>
+          </div>
+        </div>
+        <div style="margin-top: 4px; padding-top: 6px; border-top: 1px dashed #cbd5e1; display: flex; justify-content: space-between; align-items: center; font-size: 0.76rem;">
+          <span style="color: #64748b; font-weight: 600;">Total em bônus:</span>
+          <div>
+            <span style="color: #94a3b8; text-decoration: line-through; margin-right: 4px;">R$ 133,00</span>
+            <strong style="color: #15803d; font-weight: 800; background: #dcfce7; padding: 1px 5px; border-radius: 4px;">GRÁTIS</strong>
+          </div>
+        </div>
       </div>
 
-      <a href="https://pay.wiapy.com/YqcEgq03Icf" class="modal-cta-btn">
-        <span>SIM, QUERO O PLANO PREMIUM POR R$ 19,90 →</span>
+      <a href="https://pay.wiapy.com/y73pcRDeabSf" class="modal-cta-btn" data-checkout-link>
+        <span>SIM, QUERO O PLANO PREMIUM POR R$ 14,90 →</span>
       </a>
       
-      <a href="https://pay.wiapy.com/aBbtj20fF-Yl" class="modal-decline-link" style="margin-top: 14px;">
-        Não quero adicionar os bônus. Quero apenas o Plano Básico por R$ 14,90 →
+      <a href="https://pay.wiapy.com/TPKh5tVHZchK" class="modal-decline-link" data-checkout-link style="margin-top: 12px;">
+        Não quero adicionar os bônus. Quero apenas o Plano Básico por R$ 9,90 →
       </a>
     </div>
   </div>
