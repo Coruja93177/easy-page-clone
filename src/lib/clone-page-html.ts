@@ -12,8 +12,25 @@ export const pageHtml = `
     <div class="hero-glow-bg"></div>
     <div class="container">
       <div class="hero-content">
-        <h1 class="hero-headline">
-          REVISE AS <span style="color: #0284c7;">5 MATÉRIAS DA PROVA DA ANAC</span> E DESCUBRA O QUE AINDA PODE FAZER VOCÊ <span style="color: #0284c7;">ERRAR NA BANCA</span>
+        <!-- TOP EYEBROW - CURIOSITY TRIGGER -->
+        <div class="hero-eyebrow-container">
+          <div class="hero-eyebrow-badge">
+            <span class="hero-eyebrow-icon">✈️</span>
+            <span>O SEGREDO DAS PEGADINHAS QUE MAIS REPROVAM NA BANCA DA ANAC</span>
+          </div>
+        </div>
+
+        <!-- 290 QUESTÕES AVIATION BADGE -->
+        <div class="atlas-racing-badge-wrapper">
+          <div class="atlas-racing-badge">
+            <span class="racing-flag-mini">✈️</span>
+            <span class="atlas-badge-text">290 QUESTÕES</span>
+            <span class="racing-flag-mini">✈️</span>
+          </div>
+        </div>
+
+        <h1 class="hero-headline" style="margin-top: 8px;">
+          290 QUESTÕES COMENTADAS PARA REVISAR AS <span style="color: #0284c7;">5 MATÉRIAS DE PILOTO PRIVADO DA ANAC</span>
         </h1>
       </div>
     </div>
