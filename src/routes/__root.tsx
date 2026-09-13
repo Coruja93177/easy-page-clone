@@ -140,110 +140,125 @@ fbq('track', 'PageView');
         <script
           dangerouslySetInnerHTML={{
             __html: `
-function initMetaEvents() {
-  const oferta = document.getElementById('oferta');
+(function() {
+  // Garantir execução única do inicializador de eventos do Pixel
+  if (window.__pixelEventsConfigured) return;
+  window.__pixelEventsConfigured = true;
 
-  if (oferta) {
-    let ofertaVisualizada = false;
+  function setupPixelEvents() {
+    if (typeof window.fbq !== 'function') return;
 
-    const observer = new IntersectionObserver(
-      function(entries) {
-        entries.forEach(function(entry) {
-          if (entry.isIntersecting && !ofertaVisualizada) {
-
-            ofertaVisualizada = true;
-
-            fbq('track', 'ViewContent', {
+    // 1. ViewContent quando o usuário visualizar a seção de ofertas/checkout (disparo único absoluto)
+    var ofertaSec = document.getElementById('oferta');
+    if (ofertaSec && !window.__ofertaTracked) {
+      if ('IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting && !window.__ofertaTracked) {
+              window.__ofertaTracked = true;
+              window.fbq('track', 'ViewContent', {
+                content_name: '290 Questões Comentadas PPA',
+                content_category: 'Piloto Privado ANAC',
+                content_type: 'product'
+              });
+              try { observer.unobserve(ofertaSec); } catch(e) {}
+            }
+          });
+        }, { threshold: 0.25 });
+        observer.observe(ofertaSec);
+      } else {
+        // Fallback para scroll simples se IntersectionObserver não estiver disponível
+        var handleScroll = function() {
+          if (window.__ofertaTracked) return;
+          var rect = ofertaSec.getBoundingClientRect();
+          if (rect.top <= (window.innerHeight || document.documentElement.clientHeight) && rect.bottom >= 0) {
+            window.__ofertaTracked = true;
+            window.fbq('track', 'ViewContent', {
               content_name: '290 Questões Comentadas PPA',
-              content_category: 'Oferta PPA',
+              content_category: 'Piloto Privado ANAC',
               content_type: 'product'
             });
-
-            observer.unobserve(oferta);
+            window.removeEventListener('scroll', handleScroll);
           }
-        });
-      },
-      {
-        threshold: 0.30
-      }
-    );
-
-    observer.observe(oferta);
-  }
-
-  let ultimoCheckout = null;
-  let ultimoDisparo = 0;
-
-  function dispararInitiateCheckout(elemento) {
-
-    const agora = Date.now();
-
-    if (
-      ultimoCheckout === elemento &&
-      agora - ultimoDisparo < 1500
-    ) {
-      return false;
-    }
-
-    ultimoCheckout = elemento;
-    ultimoDisparo = agora;
-
-    fbq('track', 'InitiateCheckout', {
-      content_name: '290 Questões Comentadas PPA',
-      content_category: 'PPA',
-      content_type: 'product',
-      currency: 'BRL'
-    });
-
-    return true;
-  }
-
-  document.addEventListener('pointerdown', function(event) {
-
-    const checkout = event.target.closest('[data-checkout-link]');
-
-    if (!checkout) return;
-
-    dispararInitiateCheckout(checkout);
-
-  }, true);
-
-  document.addEventListener('click', function(event) {
-
-    const checkout = event.target.closest('[data-checkout-link]');
-
-    if (!checkout) return;
-
-    const disparouAgora = dispararInitiateCheckout(checkout);
-
-    if (disparouAgora && checkout.href) {
-
-      const abrirNovaAba =
-        checkout.target === '_blank' ||
-        event.ctrlKey ||
-        event.metaKey ||
-        event.shiftKey;
-
-      if (!abrirNovaAba) {
-
-        event.preventDefault();
-
-        const destino = checkout.href;
-
-        setTimeout(function() {
-          window.location.href = destino;
-        }, 250);
+        };
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        handleScroll();
       }
     }
 
-  }, true);
-}
+    // 2. InitiateCheckout exclusivamente para botões que levam ao checkout da Wiapy (R$ 9,90, R$ 14,90, R$ 19,90)
+    // Proteção rigorosa contra duplicação de disparos (debounce e trava por clique)
+    var lastTriggerTime = 0;
+    var lastCheckoutHref = '';
 
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initMetaEvents);
-} else {
-  initMetaEvents();
-}
+    function isWiapyCheckout(anchor) {
+      if (!anchor || !anchor.href) return false;
+      return anchor.href.indexOf('pay.wiapy.com') !== -1 ||
+             anchor.hasAttribute('data-checkout-link') ||
+             anchor.classList.contains('modal-cta-btn') ||
+             anchor.classList.contains('modal-decline-link') ||
+             anchor.classList.contains('btn-green-cta');
+    }
+
+    function getPlanDetails(anchor) {
+      var href = (anchor && anchor.href) ? anchor.href : '';
+      var text = (anchor && anchor.textContent) ? anchor.textContent : '';
+
+      // Plano R$ 9,90
+      if (href.indexOf('TPKh5tVHZchK') !== -1 || text.indexOf('9,90') !== -1) {
+        return { value: 9.90, name: 'Plano Básico PPA - R$ 9,90' };
+      }
+      // Plano R$ 14,90
+      if (href.indexOf('y73pcRDeabSf') !== -1 || text.indexOf('14,90') !== -1) {
+        return { value: 14.90, name: 'Plano Premium Oferta Especial - R$ 14,90' };
+      }
+      // Plano R$ 19,90
+      if (href.indexOf('VAN-BIfmGJTY') !== -1 || text.indexOf('19,90') !== -1 || anchor.classList.contains('btn-green-cta')) {
+        return { value: 19.90, name: 'Plano Premium Acesso Completo - R$ 19,90' };
+      }
+
+      return { value: 19.90, name: '290 Questões Comentadas PPA' };
+    }
+
+    function fireInitiateCheckout(anchor) {
+      var now = Date.now();
+      var href = anchor.href || '';
+
+      // Impede disparos duplicados se clicado múltiplas vezes seguidas num intervalo de 2 segundos
+      if (now - lastTriggerTime < 2000 && lastCheckoutHref === href) {
+        return;
+      }
+
+      lastTriggerTime = now;
+      lastCheckoutHref = href;
+
+      var details = getPlanDetails(anchor);
+
+      window.fbq('track', 'InitiateCheckout', {
+        content_name: details.name,
+        content_category: 'Apostilas PPA ANAC',
+        content_type: 'product',
+        value: details.value,
+        currency: 'BRL'
+      });
+    }
+
+    document.addEventListener('click', function(event) {
+      var target = event.target;
+      var anchor = target && target.closest ? target.closest('a') : null;
+
+      if (anchor && isWiapyCheckout(anchor)) {
+        fireInitiateCheckout(anchor);
+      }
+    }, true);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupPixelEvents);
+  } else {
+    setupPixelEvents();
+  }
+})();
             `,
           }}
         />
